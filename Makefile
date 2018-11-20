@@ -7,3 +7,6 @@ publications.html: Makefile
 	docker run --rm -v "$(PWD)/temp:/home/bob/source" tjhei/dealii-java-jabref
 	cp temp/output.html publications.html
 	rm -rf temp/
+
+# for now always force a rebuild:
+.PHONY: publications.html
