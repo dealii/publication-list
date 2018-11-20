@@ -1,0 +1,53 @@
+%
+% This file can be rendered by calling 
+% latexmk publication_list.tex
+%
+
+\documentclass[]{article}
+\usepackage[
+  backend=biber,
+  sorting=ydnt,
+  defernumbers=true,
+  doi=true,
+  refsection=section
+  ]{biblatex}
+\AtBeginBibliography{\small}
+
+\newcommand{\addnewbibyear}[1]{%
+\begin{refsection}[../publications-#1.bib]
+\nocite{*}
+\printbibliography[title={Publications in #1}]
+\end{refsection}
+}
+
+%opening
+\title{deal.II publication list}
+\author{The deal.II authors and contributors}
+
+\begin{document}
+
+\maketitle
+
+\addnewbibyear{1998}
+\addnewbibyear{1999}
+\addnewbibyear{2000}
+\addnewbibyear{2001}
+\addnewbibyear{2002}
+\addnewbibyear{2003}
+\addnewbibyear{2004}
+\addnewbibyear{2005}
+\addnewbibyear{2006}
+\addnewbibyear{2007}
+\addnewbibyear{2008}
+\addnewbibyear{2009}
+\addnewbibyear{2010}
+\addnewbibyear{2011}
+\addnewbibyear{2012}
+\addnewbibyear{2013}
+\addnewbibyear{2014}
+\addnewbibyear{2015}
+\addnewbibyear{2016}
+\addnewbibyear{2017}
+\addnewbibyear{2018}
+
+\end{document}
