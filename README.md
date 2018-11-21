@@ -11,7 +11,7 @@ The more comprehensive this list is, the simpler it is for us to justify to our 
 If you'd like to add a bibliographic entry to our `bibtex` list, this can be done by one of two means.
 Firstly, you could email the details of your publication to one of the [principal developers or administrators](https://www.dealii.org/authors.html) of the deal.II library and we'll do it for you.
 Alternatively, you could set up a pull request to this repository that adds the details of your awesome work.
-This can be done with these easy steps (these steps are also detailed more thoroughly for our main repository on our [wiki page](https://github.com/dealii/dealii/wiki/Contributing))
+This can be done online using [Github's built in editor](https://help.github.com/articles/editing-files-in-your-repository/) or with these easy steps (these steps are also detailed more thoroughly for our main repository on our [wiki page](https://github.com/dealii/dealii/wiki/Contributing)):
 1. Fork this repository, thereby adding it to your own GitHub account.
 2. Make a local clone of your repository.
 ```
