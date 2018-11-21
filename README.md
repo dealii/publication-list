@@ -44,4 +44,151 @@ $ git push origin my_awesome_new_publication
 ```
 7. Setup a pull request for your addition(s) within GitHub.
 
+To help you out, here are some templates for common entries:
+- Article
+```
+@Article{<bibtex key>,
+  author    = {},
+  title     = {},
+  journal   = {},
+  year      = {},
+  volume    = {},
+  number    = {},
+  pages     = {},
+  doi       = {},
+  url       = {},
+}
+```
+- Article submitted to [arXiv.org](https://arxiv.org/)
+```
+@Article{<bibtex key>,
+  author        = {},
+  title         = {},
+  journal       = {ArXiv e-prints}
+  year          = {},
+  volume        = {},
+  number        = {},
+  pages         = {},
+  archiveprefix = {arXiv},
+  eprint        = {<xxxx.xxxxx>},
+  doi           = {},
+  url           = {},
+}
+```
+- Paper in conference proceedings
+```
+@InProceedings{<bibtex key>,
+  author    = {},
+  title     = {},
+  booktitle = {},
+  year      = {},
+  volume    = {},
+  number    = {},
+  pages     = {},
+  doi       = {},
+  url       = {},
+}
+```
+- Bachelor's / Diploma thesis
+```
+@MastersThesis{<bibtex key>,
+  document_type = {Bachelor's Thesis},
+  author        = {},
+  title         = {},
+  school        = {},
+  year          = {},
+  month         = {},
+  url           = {},
+}
+```
+- Master's thesis
+```
+@MastersThesis{<bibtex key>,
+  author    = {},
+  title     = {},
+  school    = {},
+  year      = {},
+  month     = {},
+  url       = {},
+}
+```
+- PhD thesis
+```
+@PhdThesis{<bibtex key>,
+  author    = {},
+  title     = {},
+  school    = {},
+  year      = {},
+  month     = {},
+  url       = {},
+}
+```
+- Technical report
+```
+@TechReport{<bibtex key>,
+  author      = {},
+  title       = {},
+  institution = {},
+  year        = {},
+  url         = {},
+}
+```
+- Chapter in a book
+```
+@InBook{<bibtex key>,
+  chapter   = {},
+  pages     = {},
+  title     = {},
+  publisher = {},
+  year      = {},
+  author    = {},
+  volume    = {},
+  number    = {},
+  series    = {},
+  edition   = {},
+  isbn      = {},
+  doi       = {},
+  url       = {},
+}
+```
+- Book
+```
+@Book{<bibtex key>,
+  title     = {},
+  publisher = {},
+  year      = {},
+  author    = {},
+  volume    = {},
+  number    = {},
+  series    = {},
+  edition   = {},
+  isbn      = {},
+  doi       = {},
+  url       = {},
+}
+```
+Please make sure that you complete as many of these fields as possible. 
+It is a particular help to us to get the [DOI number](http://www.doi.org/) or a URL corresponding to your contribution.
+
+If you would like to add a contribution that has not yet been formally accepted, please add a comment to the note field indicating the status of your contribution.
+This may be one of the following:
+- for items that have been submitted but not yet reviewed:
+```
+note = {Submitted},
+```
+- for items that are currently undergoing peer review:
+```
+note = {In review},
+```
+- for items that have undergone review but are not yet at the publication stage:
+```
+note = {Accepted},
+```
+- for items that are in the final stages of publication (at this point they might have been assigned a DOI number):
+```
+note = {In press},
+```
+By adding these fields to your contribution, it will help us better maintain our database and help us determine when to update the status of your entry as it moves through the publication stage.
+We would like to keep the status of your manuscripts as up-to-date as possible.
+
 Thank you very much for your contribution! We appreciate any entries to the list, as well as maintenance for the existing entries.
