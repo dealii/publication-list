@@ -8,6 +8,8 @@ This page collects publications written on or with the help of deal.II.
 If you have published anything, including Diploma, Masters or PhD theses, please let us know about it.
 The more comprehensive this list is, the simpler it is for us to justify to our departments and sponsors the effort we put into the library — something that helps all of us in the end! 
 
+## Adding a new publication
+
 If you'd like to add a bibliographic entry to our `bibtex` list, this can be done by one of two means.
 Firstly, you could email the details of your publication to one of the [principal developers or administrators](https://www.dealii.org/authors.html) of the deal.II library and we'll do it for you.
 Alternatively, you could set up a pull request to this repository that adds the details of your awesome work.
@@ -43,6 +45,8 @@ $ git commit -m "Added entry <bibtex key>"
 $ git push origin my_awesome_new_publication
 ```
 7. Setup a pull request for your addition(s) within GitHub.
+
+## Commonly used entry templates
 
 To help you out, here are some templates for common entries:
 - Article
@@ -190,5 +194,7 @@ note = {In press},
 ```
 By adding these fields to your contribution, it will help us better maintain our database and help us determine when to update the status of your entry as it moves through the publication stage.
 We would like to keep the status of your manuscripts as up-to-date as possible.
+
+## A final word...
 
 Thank you very much for your contribution! We appreciate any entries to the list, as well as maintenance for the existing entries.
