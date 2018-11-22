@@ -47,7 +47,6 @@ pipeline
 	       pdflatex -interaction=nonstopmode publication_list.tex
 	       biber publication_list
 	       pdflatex -interaction=nonstopmode publication_list.tex
-	       pdflatex -interaction=nonstopmode publication_list.tex
 	       '''
             archiveArtifacts artifacts: 'offline/publication_list.pdf', fingerprint: true
             githubNotify context: 'latex', description: '',  status: 'SUCCESS'
