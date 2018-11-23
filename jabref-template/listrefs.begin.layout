@@ -1,16 +1,3 @@
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <title>deal.II: Publications</title>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Type" content="text/html; charset=\encoding">
-    <link rel="icon" href="/favicon.ico"/>
-    <link rel="apple-touch-icon" href="/pictures/clover57.png"/>
-    <meta name="author" content="the deal.II authors"/>
-    <meta name="keywords" content="dealii, publications, finite elements, finite element method, fem, finite element software, open source, adaptive, finite element method, finite element modeling, finite element modelling, finite element methods, numerical analysis, numerical analysis software, computational fluid dynamics software"/>
-    <meta name="robots" content="index, follow">
-
 <script type="text/javascript">
 <!--
 // QuickSearch script for JabRef HTML export 
@@ -394,28 +381,6 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	tr { page-break-inside: avoid; }
 }
 </style>
-    <!-- Include stylesheets -->
-    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
-    <link href="css/global.less" type="text/less" rel="stylesheet"/>
-    <link href="css/index.less" type="text/less" rel="stylesheet"/>
-
-    <!-- LESS needs to come after the stylesheets -->
-    <script src="js/less-1.4.1.min.js"></script>
-
-</head>
-<body>
-    <!--#include file="header.include" -->
-
-    <div id="content" class="container">
-
-    <!--#include file="publications.include" -->
-
-      <div class="row">
-          <div class="well">
-            <h2>Publications using deal.II</h2>
-	    <p>
-	      Below we list all publications we know about. Please get in touch if you think there is anything incorrect or missing!
-	    </p>
 
 <form action="" id="quicksearch">
 <input type="text" id="qs_field" autocomplete="off" placeholder="Type to search..." /> <input type="button" onclick="clearQS()" value="clear" />
