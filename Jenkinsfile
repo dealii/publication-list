@@ -6,7 +6,7 @@ pipeline
 
   stages
   {
-    stage("latex")
+    stage("test")
     {
       agent
       {
@@ -22,6 +22,7 @@ pipeline
       {
         stage("permission")
         {
+          when { not {branch 'master'}}
           steps
           {
             githubNotify context: 'CI', description: 'need ready to test label and /rebuild',  status: 'PENDING'
