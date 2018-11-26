@@ -19,7 +19,7 @@
     \begin{journal} \format[HTMLChars]{\journal}\end{journal}<!--
  -->\begin{booktitle}, In: \format[HTMLChars]{\booktitle}.\end{booktitle}<!--
  -->\begin{howpublished}, \howpublished\end{howpublished}<!--
- -->\begin{school}. Thesis at \format[HTMLChars]{\school}.\end{school}<!--
+ -->\begin{school}. Thesis at \format[HTMLChars]{\school}\end{school}<!--
  -->\begin{address} \format[HTMLChars]{\address}\end{address}<!--
  -->\begin{volume}, vol. \volume\end{volume}<!--
  -->\begin{number}(\format[FormatPagesForHTML]{\number})\end{number}<!--
