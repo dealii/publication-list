@@ -39,7 +39,19 @@ pipeline
           }
         }
 
-        stage("latex")
+        stage("check")
+        {
+          steps
+          {
+	    // check for non-ascii characters and fail if they are present:
+            sh '''#!/bin/bash
+	       grep -P "[^\\x00-\\x7F]" publications*.bib || true
+	       ! { grep -q -P "[^\\x00-\\x7F]" publications*.bib && echo "ERROR: found non-ASCII characters!"; }
+	       '''
+          }
+        }
+
+	stage("latex")
         {
           steps
           {
