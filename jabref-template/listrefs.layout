@@ -36,7 +36,8 @@
        -->\begin{volume}, vol. \volume\end{volume}<!--
        -->\begin{number}(\format[FormatPagesForHTML]{\number})\end{number}<!--
         -->\begin{pages}, pp. \format[FormatPagesForHTML]{\pages}\end{pages}<!--
-    -->\begin{publisher}. \format[HTMLChars]{\publisher}\end{publisher}<!--
+         -->\begin{note}  (\format[HTMLChars]{\note})\end{note}<!--
+    -->\begin{publisher}, \format[HTMLChars]{\publisher}\end{publisher}<!--
          -->\begin{year}, \format[HTMLChars]{\year}\end{year}<!--
                      -->.
 
