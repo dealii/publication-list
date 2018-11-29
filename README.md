@@ -100,13 +100,13 @@ To help you out, here are some templates for common entries:
 - Bachelor's / Diploma thesis
 ```
 @MastersThesis{<bibtex key>,
-  document_type = {Bachelor's Thesis},
-  author        = {},
-  title         = {},
-  school        = {},
-  year          = {},
-  month         = {},
-  url           = {},
+  author    = {},
+  title     = {},
+  school    = {},
+  year      = {},
+  month     = {},
+  url       = {},
+  note      = {<Bachelor Thesis/Diploma Thesis/Honors thesis/Project thesis/...>},
 }
 ```
 - Master's thesis
