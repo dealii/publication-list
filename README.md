@@ -4,7 +4,7 @@
 
 # deal.II publication list
 This repository contains a list of known publications that use or cite the [deal.II](https://www.dealii.org) finite element library. 
-Its contents are used to generate the publications mentioned on the [deal.II website](https://www.dealii.org/publications.html).
+Its contents are used to generate the [publications mentioned on the deal.II website](https://www.dealii.org/publications.html).
 
 Our institutes are evaluated at regular intervals. 
 Consequently, we are interested in documenting the use of the programs and libraries we create. 
