@@ -41,26 +41,36 @@ pipeline
 
         stage("check")
         {
+          post {
+            failure {
+              githubNotify context: 'CI', description: 'invalid characters found',  status: 'FAILURE'
+            }
+          }
           steps
           {
-	    // check for non-ascii characters and fail if they are present:
+            // check for non-ascii characters and fail if they are present:
             sh '''#!/bin/bash
-	       grep -P "[^\\x00-\\x7F]" publications*.bib || true
-	       ! { grep -q -P "[^\\x00-\\x7F]" publications*.bib && echo "ERROR: found non-ASCII characters!"; }
-	       '''
+               grep -P "[^\\x00-\\x7F]" publications*.bib || true
+               ! { grep -q -P "[^\\x00-\\x7F]" publications*.bib && echo "ERROR: found non-ASCII characters!"; }
+               '''
           }
         }
 
-	stage("latex")
+        stage("latex")
         {
+          post {
+            failure {
+              githubNotify context: 'CI', description: 'latex failed',  status: 'FAILURE'
+            }
+          }
           steps
           {
             sh '''
-	       cd offline
-	       pdflatex -interaction=nonstopmode publication_list.tex
-	       biber publication_list
-	       pdflatex -interaction=nonstopmode publication_list.tex
-	       '''
+               cd offline
+               pdflatex -interaction=nonstopmode publication_list.tex
+               biber publication_list
+               pdflatex -interaction=nonstopmode publication_list.tex
+               '''
             archiveArtifacts artifacts: 'offline/publication_list.pdf', fingerprint: true
             githubNotify context: 'latex', description: '',  status: 'SUCCESS'
           }
@@ -77,18 +87,23 @@ pipeline
               image 'tjhei/dealii-java-jabref'
             }
           }
-          post { cleanup { cleanWs() } }
+          post {
+            cleanup { cleanWs() }
+            failure {
+              githubNotify context: 'CI', description: 'html failed',  status: 'FAILURE'
+            }
+          }
 
           steps
           {
           timeout(time: 6, unit: 'HOURS')
           {
             sh '''
-	       mkdir ~/source
-	       cat publications-*.bib >~/source/aspect.bib
-	       cp jabref-template/* ~/source/
-	       cd ~; ./script.sh
-	       cp ~/source/output.html $WORKSPACE
+               mkdir ~/source
+               cat publications-*.bib >~/source/aspect.bib
+               cp jabref-template/* ~/source/
+               cd ~; ./script.sh
+               cp ~/source/output.html $WORKSPACE
             '''
             archiveArtifacts artifacts: 'output.html', fingerprint: true
             githubNotify context: 'html', description: '',  status: 'SUCCESS'
