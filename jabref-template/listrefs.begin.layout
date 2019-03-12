@@ -407,6 +407,16 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
     <!--#include file="header.include" -->
 
     <div id="content" class="container">
+    <div class="row">
+          <div class="well">
+            <h2>Publications</h2>
+	    <p>
+	      Number of publications using deal.II, see <a href="#list">below</a> for details.
+	    </p>
+	    <div id="plot" style="width:600px"></div>
+	    <div id="n_publications"></div>
+	  </div>
+    </div>
 
     <!--#include file="publications.include" -->
 
@@ -416,8 +426,6 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	    <p>
 	      Below we list all publications we know about. Please get in touch if you think there is anything incorrect or missing!
 	    </p>
-	    <div id="plot" style="width:600px"></div>
-	    <div id="n_publications"></div>
 	    <br/>
 
 <form action="" id="quicksearch">
