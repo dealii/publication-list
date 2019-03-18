@@ -404,59 +404,59 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 
 </head>
 <body>
-    <!--#include file="header.include" -->
+  <!--#include file="header.include" -->
 
-    <div class="bs-header">
-      <div class="container">
-        <br />
-        <h2> Publications on and with <abbr>deal.II</abbr>
-        </h2>
+  <div class="bs-header">
+    <div class="container">
+      <br />
+      <h2> Publications on and with <abbr>deal.II</abbr>
+      </h2>
 
-        <p>
-          This page is an attempt at keeping track of all publications
-          that use and describe deal.II. Keeping it up to date is good
-          for our users (who can see what others have already done),
-          but is also important for keeping our funding agencies
-          appraised how widely used deal.II actually is.
-        </p>
-        
-        <p>
-          If you have published anything,
-          including Diploma, Masters or PhD theses, please
-          <a href="https://github.com/dealii/publication-list/blob/master/README.md">let
+      <p>
+        This page is an attempt at keeping track of all publications
+        that use and describe deal.II. Keeping it up to date is good
+        for our users (who can see what others have already done),
+        but is also important for keeping our funding agencies
+        appraised how widely used deal.II actually is.
+      </p>
+
+      <p>
+        If you have published anything,
+        including Diploma, Masters or PhD theses, please
+        <a href="https://github.com/dealii/publication-list/blob/master/README.md">let
           us know about it</a>!
-        </p>
+      </p>
+    </div>
+  </div>
+
+  <div id="content" class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-9">
+        <div class="well" align="center">
+	  <div id="plot" style="width:600px"></div>
+	  <div id="n_publications"></div>
+	</div>
       </div>
     </div>
-
-    <div id="content" class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-9">
-          <div class="well" align="center">
-	    <div id="plot" style="width:600px"></div>
-	    <div id="n_publications"></div>
-	  </div>
-        </div>
-      </div>
     
     <!--#include file="publications.include" -->
 
-      <div class="row">
-          <div class="well" id="list">
-            <h2>Publications using deal.II</h2>
+    <div class="row">
+      <div class="well" id="list">
+        <h2>Publications using deal.II</h2>
 
-<form action="" id="quicksearch">
-<input type="text" id="qs_field" autocomplete="off" placeholder="Type to search..." /> <input type="button" onclick="clearQS()" value="clear" />
-<span id="searchstat">Matching entries: <span id="stat">0</span></span>
-<div id="showsettings" onclick="toggleSettings()">settings...</div>
-<div id="settings" class="hidden">
-<ul>
-<li><input type="checkbox" class="search_setting" id="opt_searchAbs" onchange="updateSetting(this)"><label for="opt_searchAbs"> include abstract</label></li>
-<li><input type="checkbox" class="search_setting" id="opt_searchRev" onchange="updateSetting(this)"><label for="opt_searchRev"> include review</label></li>
-<li><input type="checkbox" class="search_setting" id="opt_useRegExp" onchange="updateSetting(this)"><label for="opt_useRegExp"> use RegExp</label></li>
-<li><input type="checkbox" class="search_setting" id="opt_noAccents" onchange="updateSetting(this)"><label for="opt_noAccents"> ignore accents</label></li>
-</ul>
-</div>
-</form>
-<table id="qs_table" border="1">
-<tbody>
+        <form action="" id="quicksearch">
+          <input type="text" id="qs_field" autocomplete="off" placeholder="Type to search..." /> <input type="button" onclick="clearQS()" value="clear" />
+          <span id="searchstat">Matching entries: <span id="stat">0</span></span>
+          <div id="showsettings" onclick="toggleSettings()">settings...</div>
+          <div id="settings" class="hidden">
+            <ul>
+              <li><input type="checkbox" class="search_setting" id="opt_searchAbs" onchange="updateSetting(this)"><label for="opt_searchAbs"> include abstract</label></li>
+              <li><input type="checkbox" class="search_setting" id="opt_searchRev" onchange="updateSetting(this)"><label for="opt_searchRev"> include review</label></li>
+              <li><input type="checkbox" class="search_setting" id="opt_useRegExp" onchange="updateSetting(this)"><label for="opt_useRegExp"> use RegExp</label></li>
+              <li><input type="checkbox" class="search_setting" id="opt_noAccents" onchange="updateSetting(this)"><label for="opt_noAccents"> ignore accents</label></li>
+            </ul>
+          </div>
+        </form>
+        <table id="qs_table" border="1">
+          <tbody>
