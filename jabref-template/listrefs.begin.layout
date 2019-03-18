@@ -432,7 +432,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
     <div id="content" class="container">
       <div class="row">
         <div class="col-xs-12 col-md-9">
-          <div class="well">
+          <div class="well" align="center">
 	    <div id="plot" style="width:600px"></div>
 	    <div id="n_publications"></div>
 	  </div>
