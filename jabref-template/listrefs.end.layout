@@ -97,7 +97,7 @@
       n_publications += table[i-first_year+1][1];
     document.getElementById("n_publications").innerHTML =
         "Known publications using deal.II. Total: <b>" + n_publications +
-        "</b>. See <a href=\"#list\">below for individual publications</a>.";
+        "</b>.";
   </script>
 
 </html>
