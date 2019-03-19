@@ -105,7 +105,7 @@ pipeline
                cd ~; ./script.sh
                sed '/publications.include/q' ~/source/output.html >$WORKSPACE/output.html
                cat $WORKSPACE/publications.include >>$WORKSPACE/output.html
-               sed -n '/publications.include/,$$p' ~/source/output.html >>$WORKSPACE/output.html
+               sed -n '/publications.include/,$p' ~/source/output.html >>$WORKSPACE/output.html
                sed -i '/publications.include/d' $WORKSPACE/output.html
             '''
             archiveArtifacts artifacts: 'output.html', fingerprint: true
