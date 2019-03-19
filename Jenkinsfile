@@ -104,7 +104,7 @@ pipeline
                cp jabref-template/* ~/source/
                cd ~; ./script.sh
                sed '/publications.include/q' ~/source/output.html >$WORKSPACE/output.html
-               cat publications.include >>$WORKSPACE/output.html
+               cat $WORKSPACE/publications.include >>$WORKSPACE/output.html
                sed -n '/publications.include/,$$p' ~/source/output.html >>$WORKSPACE/output.html
                sed -i '/publications.include/d' $WORKSPACE/output.html
             '''
