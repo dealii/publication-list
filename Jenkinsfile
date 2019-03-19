@@ -103,11 +103,10 @@ pipeline
                cat publications-*.bib >~/source/aspect.bib
                cp jabref-template/* ~/source/
                cd ~; ./script.sh
-               cp ~/source/output.html $WORKSPACE/output.html
-               sed '/publications.include/q' temp/output.html >$WORKSPACE/output.html
+               sed '/publications.include/q' ~/source/output.html >$WORKSPACE/output.html
                cat publications.include >>$WORKSPACE/output.html
-               sed -n '/publications.include/,$$p' temp/output.html >>$WORKSPACE/output.html
-               sed -i '/publications.include/d' $WORKSPACE/publications.html
+               sed -n '/publications.include/,$$p' ~/source/output.html >>$WORKSPACE/output.html
+               sed -i '/publications.include/d' $WORKSPACE/output.html
             '''
             archiveArtifacts artifacts: 'output.html', fingerprint: true
             githubNotify context: 'html', description: '',  status: 'SUCCESS'
