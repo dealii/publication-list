@@ -1,12 +1,12 @@
-</tbody>
-</table>
-<footer>
- <small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on \format[CurrentDate]{dd/MM/yyyy}.</small>
-</footer>
+          </tbody>
+        </table>
+        <footer>
+          <small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on \format[CurrentDate]{dd/MM/yyyy}.</small>
+        </footer>
 
-	  </div>
-	  </div>
-	  </div>
+      </div>
+    </div>
+  </div>
 </body>
   <!-- Some JQuery needs to come after the body -->
   <script src="js/jquery.min.js"></script>
@@ -95,7 +95,9 @@
     var n_publications=0;
     for (var i=first_year; i<=last_year; ++i)
       n_publications += table[i-first_year+1][1];
-    document.getElementById("n_publications").innerHTML = "Total number of publications: <b>" + n_publications + "</b>.";
+    document.getElementById("n_publications").innerHTML =
+        "Known publications using deal.II. Total: <b>" + n_publications +
+        "</b>.";
   </script>
 
 </html>
