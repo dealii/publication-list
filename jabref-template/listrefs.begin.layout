@@ -439,7 +439,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
       </div>
 
       <div class="hidden-xs col-sm-3">
-        <div class="well" style="height:700px">
+        <div class="well">
           <h2>Contents</h2>
 
           <p>
