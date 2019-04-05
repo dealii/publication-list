@@ -173,6 +173,21 @@
 
           <ol>
             <li>
+	      A. Sartori,
+	      N. Giuliani,
+	      M. Bardelloni,
+              <a href="http://people.sissa.it/heltai"
+                 target="_top">L. Heltai</a>
+              <br>
+              <strong>deal2lkit: A toolkit library for high performance
+              programming in deal.II</strong>
+              <br>
+              SoftwareX, vol. 7, pp. 318-327, 2018.
+              <br>
+              DOI: <a href="https://doi.org/10.1016/j.softx.2018.09.004">10.1016/j.softx.2018.09.004</a>
+            </li>
+
+            <li>
               <a href="http://www.math.colostate.edu/~bangerth"
                  target="_top">W. Bangerth</a>,
               C. Burstedde,
