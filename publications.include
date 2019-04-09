@@ -28,19 +28,19 @@
                   target="_top">preprint</a>)
               <br>
               <pre>
-                @article{dealII90,
-                title   = {The \texttt{deal.II} Library, Version 9.0},
-                author  = {G. Alzetta and D. Arndt and W. Bangerth and V. Boddu and
-                B. Brands and D. Davydov and R. Gassmoeller and T. Heister and
-                L. Heltai and K. Kormann and M. Kronbichler and M. Maier and
-                J.-P. Pelteret and B. Turcksin and D. Wells},
-                journal = {Journal of Numerical Mathematics},
-                year    = {2018},
-                volume  = {26},
-                number  = {4},
-                pages   = {173--183},
-                doi     = {10.1515/jnma-2018-0054}
-                }
+      @article{dealII90,
+        title   = {The \texttt{deal.II} Library, Version 9.0},
+        author  = {G. Alzetta and D. Arndt and W. Bangerth and V. Boddu and
+                   B. Brands and D. Davydov and R. Gassmoeller and T. Heister and
+                   L. Heltai and K. Kormann and M. Kronbichler and M. Maier and
+                   J.-P. Pelteret and B. Turcksin and D. Wells},
+        journal = {Journal of Numerical Mathematics},
+        year    = {2018},
+        volume  = {26},
+        number  = {4},
+        pages   = {173--183},
+        doi     = {10.1515/jnma-2018-0054}
+      }
               </pre>
             </li>
 
@@ -61,16 +61,16 @@
               DOI <a href="http://doi.acm.org/10.1145/1268776.1268779">10.1145/1268776.1268779</a>
               <br>
               <pre>
-                @Article{BangerthHartmannKanschat2007,
-                author =  {W. Bangerth and R. Hartmann and G. Kanschat},
-                title =   {{deal.II} -- a General Purpose Object
-                Oriented Finite Element Library},
-                journal = {ACM Trans. Math. Softw.},
-                year =    2007,
-                volume =  33,
-                number =  4,
-                pages =   {24/1--24/27}
-                }
+      @Article{BangerthHartmannKanschat2007,
+        author  = {W. Bangerth and R. Hartmann and G. Kanschat},
+        title   = {{deal.II} -- a General Purpose Object
+                   Oriented Finite Element Library},
+        journal = {ACM Trans. Math. Softw.},
+        year    = {2007},
+        volume  = {33},
+        number  = {4},
+        pages   = {24/1--24/27}
+      }
               </pre>
             </li>
           </ol>
