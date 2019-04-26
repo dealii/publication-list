@@ -182,6 +182,7 @@ the `note` tag as in the following example:
 ```
 Please make sure that you complete as many of these fields as possible. 
 It is a particular help to us to get the [DOI number](http://www.doi.org/) or a URL corresponding to your contribution.
+A really useful resource that can be used to generate complete (or near complete) bibtex entries from DOI numbers and arXiv IDs is https://doi2bib.org.
 
 #### Adding notes to publications
 If you would like to add a contribution that has not yet been formally accepted, please add a comment to the note field indicating the status of your contribution.
