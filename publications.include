@@ -12,34 +12,29 @@
 
           <ol>
             <li>
-              G. Alzetta, D. Arndt, W. Bangerth, V. Boddu,
-              B. Brands, D. Davydov, R. Gassmoeller, T. Heister,
- 	      L. Heltai, K. Kormann, M. Kronbichler, M. Maier,
+              D. Arndt, W. Bangerth, T. C. Clevenger, D. Davydov,
+              M. Fehling, D. Garcia-Sanchez, G. Harper, T. Heister,
+              L. Heltai, M. Kronbichler, R. M. Kynch, M. Maier,
               J.-P. Pelteret, B. Turcksin, D. Wells
               <br/>
-              <strong>The <abbr>deal.II</abbr> Library, Version 9.0
+              <strong>The <abbr>deal.II</abbr> Library, Version 9.1
               </strong>
               <br>
-              Journal of Numerical Mathematics, 26(4), pp. 173-183, 2018.
+              submitted, 2019.
               <br>
-              <a href="https://doi.org/10.1515/jnma-2018-0054">DOI: 10.1515/jnma-2018-0054</a>
-              <br>
-	      (<a href="https://dealii.org/deal90-preprint.pdf"
+	      (<a href="https://dealii.org/deal91-preprint.pdf"
                   target="_top">preprint</a>)
               <br>
               <pre>
-      @article{dealII90,
-        title   = {The \texttt{deal.II} Library, Version 9.0},
-        author  = {G. Alzetta and D. Arndt and W. Bangerth and V. Boddu and
-                   B. Brands and D. Davydov and R. Gassmoeller and T. Heister and
-                   L. Heltai and K. Kormann and M. Kronbichler and M. Maier and
+      @article{dealII91,
+        title   = {The \texttt{deal.II} Library, Version 9.1},
+        author  = {D. Arndt and W. Bangerth and T. C. Clevenger and D. Davydov and
+                   M. Fehling and D. Garcia-Sanchez and G. Harper and T. Heister and
+                   L. Heltai and M. Kronbichler and R. M. Kynch and M. Maier and
                    J.-P. Pelteret and B. Turcksin and D. Wells},
-        journal = {Journal of Numerical Mathematics},
-        year    = {2018},
-        volume  = {26},
-        number  = {4},
-        pages   = {173--183},
-        doi     = {10.1515/jnma-2018-0054}
+        journal = {submitted},
+        year    = {2019},
+        url     = {https://dealii.org/deal91-preprint.pdf}
       }
               </pre>
             </li>
@@ -79,6 +74,40 @@
           <p>
             Older releases are announced in the following preprints:
             <ul>
+
+              <li>
+              G. Alzetta, D. Arndt, W. Bangerth, V. Boddu,
+              B. Brands, D. Davydov, R. Gassmoeller, T. Heister,
+ 	      L. Heltai, K. Kormann, M. Kronbichler, M. Maier,
+              J.-P. Pelteret, B. Turcksin, D. Wells
+              <br/>
+              <strong>The <abbr>deal.II</abbr> Library, Version 9.0
+              </strong>
+              <br>
+              Journal of Numerical Mathematics, 26(4), pp. 173-183, 2018.
+              <br>
+              <a href="https://doi.org/10.1515/jnma-2018-0054">DOI: 10.1515/jnma-2018-0054</a>
+              <br>
+	      (<a href="https://dealii.org/deal90-preprint.pdf"
+                  target="_top">preprint</a>)
+              <br>
+              <pre>
+      @article{dealII90,
+        title   = {The \texttt{deal.II} Library, Version 9.0},
+        author  = {G. Alzetta and D. Arndt and W. Bangerth and V. Boddu and
+                   B. Brands and D. Davydov and R. Gassmoeller and T. Heister and
+                   L. Heltai and K. Kormann and M. Kronbichler and M. Maier and
+                   J.-P. Pelteret and B. Turcksin and D. Wells},
+        journal = {Journal of Numerical Mathematics},
+        year    = {2018},
+        volume  = {26},
+        number  = {4},
+        pages   = {173--183},
+        doi     = {10.1515/jnma-2018-0054}
+      }
+              </pre>
+	      </li>
+
               <li>
                 D. Arndt, W. Bangerth, D. Davydov, T. Heister,
                 L. Heltai, M. Kronbichler, M. Maier, J.-P. Pelteret, B. Turcksin, D. Wells<br/>
