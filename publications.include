@@ -20,7 +20,9 @@
               <strong>The <abbr>deal.II</abbr> Library, Version 9.1
               </strong>
               <br>
-              submitted, 2019.
+              accepted, Journal of Numerical Mathematics, 2019.
+              <br>
+              <a href="https://doi.org/10.1515/jnma-2019-0064">DOI: 10.1515/jnma-2019-0064</a>
               <br>
 	      (<a href="https://dealii.org/deal91-preprint.pdf"
                   target="_top">preprint</a>)
@@ -32,8 +34,10 @@
                    M. Fehling and D. Garcia-Sanchez and G. Harper and T. Heister and
                    L. Heltai and M. Kronbichler and R. M. Kynch and M. Maier and
                    J.-P. Pelteret and B. Turcksin and D. Wells},
-        journal = {submitted},
+        journal = {Journal of Numerical Mathematics},
+        note    = {accepted},
         year    = {2019},
+        DOI     = {10.1515/jnma-2019-0064},
         url     = {https://dealii.org/deal91-preprint.pdf}
       }
               </pre>
@@ -53,7 +57,7 @@
               ACM Transactions on Mathematical Software, vol. 33,
               no. 4, article 24, 2007.
               <br>
-              DOI <a href="http://doi.acm.org/10.1145/1268776.1268779">10.1145/1268776.1268779</a>
+              <a href="http://doi.acm.org/10.1145/1268776.1268779">DOI: 10.1145/1268776.1268779</a>
               <br>
               <pre>
       @Article{BangerthHartmannKanschat2007,
