@@ -1,3 +1,8 @@
+latex: Makefile
+	cd offline && pdflatex -interaction=nonstopmode publication_list.tex || true
+	cd offline && biber publication_list
+	cd offline && pdflatex -interaction=nonstopmode publication_list.tex || true
+	cd offline && pdflatex -interaction=nonstopmode publication_list.tex
 
 publications.html: Makefile
 	rm -rf temp/ publications.html
@@ -12,4 +17,4 @@ publications.html: Makefile
 	rm -rf temp/
 
 # for now always force a rebuild:
-.PHONY: publications.html
+.PHONY: publications.html latex
