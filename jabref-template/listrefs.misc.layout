@@ -53,7 +53,7 @@
          -->\begin{note}  (\format[HTMLChars]{\note})\end{note}<!--
 -->\begin{archivePrefix}  \format[HTMLChars]{\archivePrefix}\end{archivePrefix}<!--
  -->\begin{primaryClass}  \format[HTMLChars]{\primaryClass}:\end{primaryClass}<!--
-       -->\begin{eprint}  \format[HTMLChars]{\eprint}\end{eprint}<!--
+       -->\begin{eprint}\format[HTMLChars]{\eprint}\end{eprint}<!--
          -->\begin{year}, \format[HTMLChars]{\year}\end{year}<!--
                      -->.
 
@@ -78,9 +78,9 @@
       \begin{url}
         [<a href="\format{\url}" target="_blank">URL</a>]
       \end{url}
-      \begin{!url && prefixArchive}
+      \begin{!url && archivePrefix}
         [<a href="https://arxiv.org/abs/\format{\eprint}" target="_blank">URL</a>]
-      \end{!url && prefixArchive}
+      \end{!url && archivePrefix}
 
       \begin{file}
         [<a href="\format[WrapFileLinks(\r,,pdf)]{\file}" target="_blank">PDF</a>]
