@@ -78,9 +78,11 @@
       \begin{url}
         [<a href="\format{\url}" target="_blank">URL</a>]
       \end{url}
-      \begin{!url && archivePrefix}
-        [<a href="https://arxiv.org/abs/\format{\eprint}" target="_blank">URL</a>]
-      \end{!url && archivePrefix}
+      \begin{!url}
+        \begin{archivePrefix}
+          [<a href="https://arxiv.org/abs/\format{\eprint}" target="_blank">URL</a>]
+        \end{archivePrefix}
+      \end{!url}
 
       \begin{file}
         [<a href="\format[WrapFileLinks(\r,,pdf)]{\file}" target="_blank">PDF</a>]
