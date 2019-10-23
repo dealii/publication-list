@@ -206,18 +206,14 @@
 
           <ol>
             <li>
-	      A. Sartori,
-	      N. Giuliani,
-	      M. Bardelloni,
-              <a href="http://people.sissa.it/heltai"
-                 target="_top">L. Heltai</a>
+              R. Agelek, M. Anderson,
+              <a href="http://www.math.colostate.edu/~bangerth"
+                 target="_top">W. Bangerth</a>, W. L. Barth
               <br>
-              <strong>deal2lkit: A toolkit library for high performance
-              programming in deal.II</strong>
+              <strong>On orienting edges of unstructured two- and three-dimensional meshes
+              </strong>
               <br>
-              SoftwareX, vol. 7, pp. 318-327, 2018.
-              <br>
-              DOI: <a href="https://doi.org/10.1016/j.softx.2018.09.004">10.1016/j.softx.2018.09.004</a>
+              ACM Transactions on Mathematical Software, vol. 44, article 5, 2017.
             </li>
 
             <li>
@@ -236,6 +232,14 @@
             </li>
 
             <li>
+              <a href="http://www.math.colostate.edu/~bangerth" target="_top">W. Bangerth</a>, T. Heister
+              <br>
+              <strong>What makes computational open source software libraries successful?</strong>
+              <br>
+              Computational Science &amp; Discovery, vol. 6, article 015010, 2013.
+            </li>
+
+            <li>
               <a href="http://www.math.colostate.edu/~bangerth"
                  target="_top">W. Bangerth</a>, O. Kayser-Herold
               <br>
@@ -244,6 +248,17 @@
               </strong>
               <br>
               ACM Transactions on Mathematical Software, vol. 36, pp. 4/1-31, 2009.
+            </li>
+
+            <li>
+              D. Davydov, T. Gerasimov, J.-P. Pelteret, P. Steinmann
+              <br>
+              <strong>Convergence study of the h-adaptive PUM and the hp-adaptive FEM applied to eigenvalue problems in quantum mechanics</strong>
+              <br>
+              Advanced Modeling and Simulation in Engineering
+              Sciences, vol. 4, pp. 2213-7467. 2017.
+              <br>
+              DOI: <a href="https://doi.org/10.1186/s40323-017-0093-0">10.1186/s40323-017-0093-0</a>
             </li>
 
             <li>
@@ -281,37 +296,6 @@
             </li>
 
             <li>
-              B. Turcksin, M. Kronbichler,
-              <a href="http://www.math.colostate.edu/~bangerth"
-                 target="_top">W. Bangerth</a>
-              <br>
-              <strong>WorkStream &mdash; a design pattern for multicore-enabled finite element computations
-              </strong>
-              <br>
-              ACM Transactions on Mathematical Software, vol. 43,
-              pp. 2/1-29, 2016.
-            </li>
-
-            <li>
-              R. Agelek, M. Anderson,
-              <a href="http://www.math.colostate.edu/~bangerth"
-                 target="_top">W. Bangerth</a>, W. L. Barth
-              <br>
-              <strong>On orienting edges of unstructured two- and three-dimensional meshes
-              </strong>
-              <br>
-              ACM Transactions on Mathematical Software, vol. 44, article 5, 2017.
-            </li>
-
-            <li>
-              <a href="http://www.math.colostate.edu/~bangerth" target="_top">W. Bangerth</a>, T. Heister
-              <br>
-              <strong>What makes computational open source software libraries successful?</strong>
-              <br>
-              Computational Science &amp; Discovery, vol. 6, article 015010, 2013.
-            </li>
-
-            <li>
               M. Maier, M. Bardelloni, L. Heltai
               <br>
               <strong>LinearOperator &mdash; a generic, high-level
@@ -324,14 +308,30 @@
             </li>
 
             <li>
-              D. Davydov, T. Gerasimov, J.-P. Pelteret, P. Steinmann
+	      A. Sartori,
+	      N. Giuliani,
+	      M. Bardelloni,
+              <a href="http://people.sissa.it/heltai"
+                 target="_top">L. Heltai</a>
               <br>
-              <strong>Convergence study of the h-adaptive PUM and the hp-adaptive FEM applied to eigenvalue problems in quantum mechanics</strong>
+              <strong>deal2lkit: A toolkit library for high performance
+              programming in deal.II</strong>
               <br>
-              Advanced Modeling and Simulation in Engineering
-              Sciences, vol. 4, pp. 2213-7467. 2017.
+              SoftwareX, vol. 7, pp. 318-327, 2018.
               <br>
-              DOI: <a href="https://doi.org/10.1186/s40323-017-0093-0">10.1186/s40323-017-0093-0</a>
+              DOI: <a href="https://doi.org/10.1016/j.softx.2018.09.004">10.1016/j.softx.2018.09.004</a>
+            </li>
+
+            <li>
+              B. Turcksin, M. Kronbichler,
+              <a href="http://www.math.colostate.edu/~bangerth"
+                 target="_top">W. Bangerth</a>
+              <br>
+              <strong>WorkStream &mdash; a design pattern for multicore-enabled finite element computations
+              </strong>
+              <br>
+              ACM Transactions on Mathematical Software, vol. 43,
+              pp. 2/1-29, 2016.
             </li>
           </ol>
 
