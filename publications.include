@@ -43,12 +43,7 @@
               </pre>
             </li>
 
-            <li> <a href="http://www.math.colostate.edu/~bangerth"
-                    target="_top">W. Bangerth</a>,
-              <a href="http://ganymed.iwr.uni-heidelberg.de/~hartmann"
-                 target="_top">R. Hartmann</a> and
-              <a href="http://simweb.iwr.uni-heidelberg.de/~gkanscha"
-                 target="_top">G. Kanschat</a>
+            <li> W. Bangerth, R. Hartmann, G. Kanschat
               <br>
               <strong>
                 deal.II &mdash; a general-purpose object-oriented finite element library
@@ -206,9 +201,7 @@
 
           <ol>
             <li>
-              R. Agelek, M. Anderson,
-              <a href="http://www.math.colostate.edu/~bangerth"
-                 target="_top">W. Bangerth</a>, W. L. Barth
+              R. Agelek, M. Anderson, W. Bangerth, W. L. Barth
               <br>
               <strong>On orienting edges of unstructured two- and three-dimensional meshes
               </strong>
@@ -217,8 +210,7 @@
             </li>
 
             <li>
-              <a href="http://www.math.colostate.edu/~bangerth"
-                 target="_top">W. Bangerth</a>,
+              W. Bangerth,
               C. Burstedde,
               T. Heister,
               M. Kronbichler
@@ -232,7 +224,7 @@
             </li>
 
             <li>
-              <a href="http://www.math.colostate.edu/~bangerth" target="_top">W. Bangerth</a>, T. Heister
+              W. Bangerth, T. Heister
               <br>
               <strong>What makes computational open source software libraries successful?</strong>
               <br>
@@ -240,8 +232,7 @@
             </li>
 
             <li>
-              <a href="http://www.math.colostate.edu/~bangerth"
-                 target="_top">W. Bangerth</a>, O. Kayser-Herold
+              W. Bangerth, O. Kayser-Herold
               <br>
               <strong>Data Structures and Requirements for hp Finite Element
                 Software
@@ -273,9 +264,7 @@
             </li>
 
             <li>
-              B. Janssen,
-              <a href="http://simweb.iwr.uni-heidelberg.de/~gkanscha"
-                 target="_top">G. Kanschat</a>
+              B. Janssen, G. Kanschat
               <br>
               <strong> Adaptive Multilevel Methods with Local Smoothing for H<sup>1</sup>-
                 and H<sup>curl</sup>-Conforming High Order Finite Element Methods</strong>
@@ -286,8 +275,7 @@
             </li>
 
             <li>
-              <a href="http://simweb.iwr.uni-heidelberg.de/~gkanscha"
-                 target="_top">G. Kanschat</a>
+              G. Kanschat
               <br>
               <strong>Multi-level methods for discontinuous Galerkin FEM on locally refined meshes</strong>
               <br>
@@ -322,8 +310,7 @@
 	      A. Sartori,
 	      N. Giuliani,
 	      M. Bardelloni,
-              <a href="http://people.sissa.it/heltai"
-                 target="_top">L. Heltai</a>
+              L. Heltai
               <br>
               <strong>deal2lkit: A toolkit library for high performance
               programming in deal.II</strong>
@@ -334,9 +321,7 @@
             </li>
 
             <li>
-              B. Turcksin, M. Kronbichler,
-              <a href="http://www.math.colostate.edu/~bangerth"
-                 target="_top">W. Bangerth</a>
+              B. Turcksin, M. Kronbichler, W. Bangerth
               <br>
               <strong>WorkStream &mdash; a design pattern for multicore-enabled finite element computations
               </strong>
