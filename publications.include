@@ -37,7 +37,7 @@
         journal = {Journal of Numerical Mathematics},
         volume  = {27},
         number  = {4},
-        pages   = {203-213},
+        pages   = {203--213},
         year    = {2019},
         DOI     = {10.1515/jnma-2019-0064},
         url     = {https://dealii.org/deal91-preprint.pdf}
