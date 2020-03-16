@@ -44,6 +44,33 @@
       }</pre>
             </li>
 
+	    <li>
+              D. Arndt, W. Bangerth, D. Davydov, T. Heister,
+              L. Heltai, M. Kronbichler, M. Maier,
+              J.-P. Pelteret, B. Turcksin, D. Wells
+              <br/>
+              <strong>The <abbr>deal.II</abbr> finite element library: design, features, and insights
+              </strong>
+              <br>
+              Computers &amp; Mathematics with Applications, 2020.
+              <br>
+              <a href="https://doi.org/10.1016/j.camwa.2020.02.022">DOI: 10.1016/j.camwa.2020.02.022</a>
+              <br>
+	      (<a href="https://arxiv.org/abs/1910.13247"
+                  target="_top">preprint</a>)
+              <br>
+              <pre>
+      @Article{dealii2019design,
+        title   = {The {deal.II} finite element library: design, features, and insights},
+        author  = {Daniel Arndt and Wolfgang Bangerth and Denis Davydov and Timo Heister and Luca Heltai and Martin Kronbichler and Matthias Maier and Jean-Paul Pelteret and Bruno Turcksin and David Wells},
+        journal = {Computers \& Mathematics with Applications},
+        year    = {2020},
+        DOI     = {10.1016/j.camwa.2020.02.022},
+	issn    = {0898-1221},
+        url     = {https://arxiv.org/abs/1910.13247}
+      }</pre>
+            </li>
+
             <li> W. Bangerth, R. Hartmann, G. Kanschat
               <br>
               <strong>
