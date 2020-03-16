@@ -20,7 +20,7 @@
               <strong>The <abbr>deal.II</abbr> Library, Version 9.1
               </strong>
               <br>
-              accepted, Journal of Numerical Mathematics, 2019.
+              Journal of Numerical Mathematics, Volume 27, Issue 4, Pages 203-213, 2019.
               <br>
               <a href="https://doi.org/10.1515/jnma-2019-0064">DOI: 10.1515/jnma-2019-0064</a>
               <br>
@@ -35,7 +35,9 @@
                    L. Heltai and M. Kronbichler and R. M. Kynch and M. Maier and
                    J.-P. Pelteret and B. Turcksin and D. Wells},
         journal = {Journal of Numerical Mathematics},
-        note    = {accepted},
+        volume  = {27},
+        number  = {4},
+        pages   = {203-213},
         year    = {2019},
         DOI     = {10.1515/jnma-2019-0064},
         url     = {https://dealii.org/deal91-preprint.pdf}
