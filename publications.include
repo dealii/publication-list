@@ -12,36 +12,60 @@
 
           <ol>
             <li>
-              D. Arndt, W. Bangerth, T. C. Clevenger, D. Davydov,
-              M. Fehling, D. Garcia-Sanchez, G. Harper, T. Heister,
-              L. Heltai, M. Kronbichler, R. M. Kynch, M. Maier,
-              J.-P. Pelteret, B. Turcksin, D. Wells
+              Daniel Arndt,
+              Wolfgang Bangerth,
+              Bruno Blais,
+              Thomas C. Clevenger,
+              Marc Fehling,
+              Alexander V. Grayver,
+              Timo Heister,
+              Luca Heltai,
+              Martin Kronbichler,
+              Matthias Maier,
+              Peter Munch,
+              Jean-Paul Pelteret,
+              Reza Rastak,
+              Ignacio Thomas,
+              Bruno Turcksin,
+              Zhuoran Wang,
+              David Wells
               <br/>
-              <strong>The <abbr>deal.II</abbr> Library, Version 9.1
+              <strong>The <abbr>deal.II</abbr> Library, Version 9.2
               </strong>
               <br>
-              Journal of Numerical Mathematics, Volume 27, Issue 4, Pages 203-213, 2019.
+              submitted
+<!--
+              <a href="https://doi.org/xxxx">DOI:
+                 xxxx</a>
+-->
               <br>
-              <a href="https://doi.org/10.1515/jnma-2019-0064">DOI: 10.1515/jnma-2019-0064</a>
-              <br>
-	      (<a href="https://dealii.org/deal91-preprint.pdf"
+	      (<a href="https://dealii.org/deal92-preprint.pdf"
                   target="_top">preprint</a>)
               <br>
               <pre>
-      @article{dealII91,
-        title   = {The \texttt{deal.II} Library, Version 9.1},
-        author  = {D. Arndt and W. Bangerth and T. C. Clevenger and D. Davydov and
-                   M. Fehling and D. Garcia-Sanchez and G. Harper and T. Heister and
-                   L. Heltai and M. Kronbichler and R. M. Kynch and M. Maier and
-                   J.-P. Pelteret and B. Turcksin and D. Wells},
-        journal = {Journal of Numerical Mathematics},
-        volume  = {27},
-        number  = {4},
-        pages   = {203--213},
-        year    = {2019},
-        DOI     = {10.1515/jnma-2019-0064},
-        url     = {https://dealii.org/deal91-preprint.pdf}
-      }</pre>
+@article{dealII92,
+  title   = {The \texttt{deal.II} Library, Version 9.2},
+  author  = {Daniel Arndt and
+             Wolfgang Bangerth and
+             Bruno Blais and
+             Thomas C. Clevenger and
+             Marc Fehling and
+             Alexander V. Grayver and
+             Timo Heister and
+             Luca Heltai and
+             Martin Kronbichler and
+             Matthias Maier and
+             Peter Munch and
+             Jean-Paul Pelteret and
+             Reza Rastak and
+             Ignacio Thomas and
+             Bruno Turcksin and
+             Zhuoran Wang and
+             David Wells},
+  journal = {submitted},
+  year    = {2020}
+}
+              </pre>
             </li>
 
             <li> W. Bangerth, R. Hartmann, G. Kanschat
@@ -73,6 +97,23 @@
           <p>
             Older releases are announced in the following preprints:
             <ul>
+              <li>
+              D. Arndt, W. Bangerth, T. C. Clevenger, D. Davydov,
+              M. Fehling, D. Garcia-Sanchez, G. Harper, T. Heister,
+              L. Heltai, M. Kronbichler, R. M. Kynch, M. Maier,
+              J.-P. Pelteret, B. Turcksin, D. Wells
+              <br/>
+              <strong>The <abbr>deal.II</abbr> Library, Version 9.1
+              </strong>
+              <br>
+              Journal of Numerical Mathematics, Volume 27, Issue 4, Pages 203-213, 2019.
+              <br>
+              <a href="https://doi.org/10.1515/jnma-2019-0064">DOI:
+                 10.1515/jnma-2019-0064</a>;
+	      <a href="https://dealii.org/deal91-preprint.pdf"
+                  target="_top">preprint</a>;
+              <a href="https://github.com/dealii/publication-list/blob/7f166e339a7c82342a5acaca575e67c54ca13d1b/publications-2019.bib#L813-L823">bibtex</a>
+              </li>
 
               <li>
               G. Alzetta, D. Arndt, W. Bangerth, V. Boddu,
@@ -85,11 +126,10 @@
               <br>
               Journal of Numerical Mathematics, 26(4), pp. 173-183, 2018.
               <br>
-              <a href="https://doi.org/10.1515/jnma-2018-0054">DOI: 10.1515/jnma-2018-0054</a>
-              <br>
-	      (<a href="https://dealii.org/deal90-preprint.pdf"
-                  target="_top">preprint</a>)
-              <br>
+              <a href="https://doi.org/10.1515/jnma-2018-0054">DOI:
+                 10.1515/jnma-2018-0054</a>;
+	      <a href="https://dealii.org/deal90-preprint.pdf"
+                 target="_top">preprint</a>;
 	      <a href="https://github.com/dealii/publication-list/blob/7f166e339a7c82342a5acaca575e67c54ca13d1b/publications-2018.bib#L96-L105">bibtex</a>
 	      </li>
 
@@ -102,11 +142,10 @@
                 Journal of Numerical Mathematics, vol. 25,
                 pp. 137-146, 2017.
                 <br>
-                (<a href="https://dealii.org/deal85-preprint.pdf"
-                    target="_top">preprint</a>)
-
                 <a href="https://doi.org/10.1515/jnma-2017-0058">DOI:
-                  10.1515/jnma-2017-0058</a>
+                  10.1515/jnma-2017-0058</a>;
+                <a href="https://dealii.org/deal85-preprint.pdf"
+                    target="_top">preprint</a>
               </li>
 
               <li>
