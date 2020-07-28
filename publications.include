@@ -33,14 +33,13 @@
               <strong>The <abbr>deal.II</abbr> Library, Version 9.2
               </strong>
               <br>
-              submitted
-<!--
-              <a href="https://doi.org/xxxx">DOI:
-                 xxxx</a>
--->
+	      Journal of Numerical Mathematics, in press. 2020.
+	      <br>
+              <a href="https://doi.org/10.1515/jnma-2020-0043">DOI:
+                 10.1515/jnma-2020-0043</a>
               <br>
-	      (<a href="https://dealii.org/deal92-preprint.pdf"
-                  target="_top">preprint</a>)
+	      <a href="https://dealii.org/deal92-preprint.pdf"
+                  target="_top">preprint</a>
               <br>
               <pre>
 @article{dealII92,
@@ -50,8 +49,11 @@
              Timo Heister and Luca Heltai and Martin Kronbichler and Matthias Maier and
              Peter Munch and Jean-Paul Pelteret and Reza Rastak and
              Ignacio Thomas and Bruno Turcksin and Zhuoran Wang and David Wells},
-  journal = {submitted},
-  year    = {2020}
+  journal = {Journal of Numerical Mathematics},
+  year    = {2020},
+  DOI     = {10.1515/jnma-2019-0064},
+  url     = {https://dealii.org/deal92-preprint.pdf},
+  note    = {in press}
 }
               </pre>
             </li>
