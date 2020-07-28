@@ -61,13 +61,14 @@
               <br>
               <pre>
       @Article{dealii2019design,
-        title   = {The {deal.II} finite element library: design, features, and insights},
-        author  = {Daniel Arndt and Wolfgang Bangerth and Denis Davydov and Timo Heister and Luca Heltai and Martin Kronbichler and Matthias Maier and Jean-Paul Pelteret and Bruno Turcksin and David Wells},
+        title   = {The {deal.II} finite element library: Design, features, and insights},
+        author  = {Daniel Arndt and Wolfgang Bangerth and Denis Davydov and
+                   Timo Heister and Luca Heltai and Martin Kronbichler and
+                   Matthias Maier and Jean-Paul Pelteret and Bruno Turcksin and
+                   David Wells},
         journal = {Computers \& Mathematics with Applications},
         year    = {2020},
-        DOI     = {10.1016/j.camwa.2020.02.022},
-	issn    = {0898-1221},
-        url     = {https://arxiv.org/abs/1910.13247}
+        DOI     = {10.1016/j.camwa.2020.02.022}
       }</pre>
             </li>
 
