@@ -91,6 +91,11 @@
 	    console.log("unknown: " + allrows[i].className);
     }
 
+    var max_per_year = 0;
+    for (i=1; i<table.length; ++i)
+      if (table[i][1] > max_per_year)
+        max_per_year = table[i][1];
+
     google.load("visualization", "1", {packages:["corechart"]});
     google.setOnLoadCallback(drawChart);
     function drawChart() {
@@ -102,7 +107,7 @@
               showTextEvery: '2',
               textStyle: {fontSize:'9'}},
       vAxis: {minValue: 0,
-              maxValue: 250},
+              viewWindow: { max : max_per_year}   },
       legend: {position: 'none'}
     };
 
