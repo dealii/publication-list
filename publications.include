@@ -43,17 +43,20 @@
               <br>
               <pre>
 @article{dealII92,
-  title   = {The \texttt{deal.II} Library, Version 9.2},
-  author  = {Daniel Arndt and Wolfgang Bangerth and Bruno Blais and
-             Thomas C. Clevenger and Marc Fehling and Alexander V. Grayver and
-             Timo Heister and Luca Heltai and Martin Kronbichler and Matthias Maier and
-             Peter Munch and Jean-Paul Pelteret and Reza Rastak and
-             Ignacio Thomas and Bruno Turcksin and Zhuoran Wang and David Wells},
-  journal = {Journal of Numerical Mathematics},
-  year    = {2020},
-  DOI     = {10.1515/jnma-2019-0064},
-  url     = {https://dealii.org/deal92-preprint.pdf},
-  note    = {in press}
+  title     = {The \texttt{deal.II} Library, Version 9.2},
+  author    = {Daniel Arndt and Wolfgang Bangerth and Bruno Blais and
+               Thomas C. Clevenger and Marc Fehling and Alexander V. Grayver and
+               Timo Heister and Luca Heltai and Martin Kronbichler and Matthias Maier and
+               Peter Munch and Jean-Paul Pelteret and Reza Rastak and
+               Ignacio Thomas and Bruno Turcksin and Zhuoran Wang and David Wells},
+  journal   = {Journal of Numerical Mathematics},
+  publisher = {De Gruyter},
+  year      = {2020},
+  volume    = {28},
+  number    = {3},
+  pages     = {131-146},
+  DOI       = {10.1515/jnma-2020-0043},
+  url       = {https://dealii.org/deal92-preprint.pdf}
 }
               </pre>
             </li>
