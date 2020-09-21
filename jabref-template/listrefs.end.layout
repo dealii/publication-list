@@ -97,9 +97,13 @@
     var data = google.visualization.arrayToDataTable(table);
 
     var options = {
-    title: 'Publications per year',
-    hAxis: {title: 'Year', showTextEvery: '1', textStyle: {fontSize:'9'}},
-    legend: {position: 'none'}
+      title: 'Publications per year',
+      hAxis: {title: 'Year',
+              showTextEvery: '2',
+              textStyle: {fontSize:'9'}},
+      vAxis: {minValue: 0,
+              maxValue: 250},
+      legend: {position: 'none'}
     };
 
     var chart = new google.visualization.ColumnChart(document.getElementById('plot'));
