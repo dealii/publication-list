@@ -375,6 +375,16 @@
               ACM Transactions on Mathematical Software, vol. 43,
               pp. 2/1-29, 2016.
             </li>
+
+            <li>
+              T. C. Clevenger, T. Heister, G. Kanschat, M. Kronbichler
+              <br>
+              <strong>A Flexible, Parallel, Adaptive Geometric Multigrid Method for FEM</strong>
+              <br>
+              ACM Transactions on Mathematical Software, vol. 47, 1, Article 7, 2020.
+	      <br>
+              DOI: <a href="https://doi.org/10.1145/3425193">10.1145/3425193</a>
+            </li>
           </ol>
 
           <p>  For massively parallel
