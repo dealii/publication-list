@@ -69,7 +69,7 @@
               <strong>The <abbr>deal.II</abbr> finite element library: design, features, and insights
               </strong>
               <br>
-              Computers &amp; Mathematics with Applications, 2020.
+              Computers &amp; Mathematics with Applications, 2021.
               <br>
               <a href="https://doi.org/10.1016/j.camwa.2020.02.022">DOI: 10.1016/j.camwa.2020.02.022</a>
               <br>
@@ -84,8 +84,12 @@
                    Matthias Maier and Jean-Paul Pelteret and Bruno Turcksin and
                    David Wells},
         journal = {Computers \& Mathematics with Applications},
-        year    = {2020},
+        year    = {2021},
         DOI     = {10.1016/j.camwa.2020.02.022}
+        pages   = {407-422},
+        volume  = {81},
+        issn    = {0898-1221},
+        url     = {https://arxiv.org/abs/1910.13247}
       }</pre>
             </li>
 
