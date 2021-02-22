@@ -33,13 +33,13 @@
               <strong>The <abbr>deal.II</abbr> Library, Version 9.2
               </strong>
               <br>
-	      Journal of Numerical Mathematics, in press. 2020.
+	      Journal of Numerical Mathematics, vol. 28, pp. 131-146. 2020.
 	      <br>
               <a href="https://doi.org/10.1515/jnma-2020-0043">DOI:
                  10.1515/jnma-2020-0043</a>
               <br>
-	      <a href="https://dealii.org/deal92-preprint.pdf"
-                  target="_top">preprint</a>
+	      (<a href="https://dealii.org/deal92-preprint.pdf"
+                  target="_top">preprint</a>)
               <br>
               <pre>
 @article{dealII92,
