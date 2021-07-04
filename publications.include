@@ -15,48 +15,45 @@
               Daniel Arndt,
               Wolfgang Bangerth,
               Bruno Blais,
-              Thomas C. Clevenger,
               Marc Fehling,
-              Alexander V. Grayver,
+              Rene Gassm&ouml;ller,
               Timo Heister,
               Luca Heltai,
+              Uwe K&ouml;cher,
               Martin Kronbichler,
               Matthias Maier,
               Peter Munch,
               Jean-Paul Pelteret,
-              Reza Rastak,
-              Ignacio Thomas,
+              Sebastian Proell,
+              Konrad Simon,
               Bruno Turcksin,
-              Zhuoran Wang,
-              David Wells
+              David Wells,
+              Jiaqi Zhang
               <br/>
-              <strong>The <abbr>deal.II</abbr> Library, Version 9.2
+              <strong>The <abbr>deal.II</abbr> Library, Version 9.3
               </strong>
               <br>
-	      Journal of Numerical Mathematics, vol. 28, pp. 131-146. 2020.
+	      Journal of Numerical Mathematics, accepted. 2021.
 	      <br>
-              <a href="https://doi.org/10.1515/jnma-2020-0043">DOI:
-                 10.1515/jnma-2020-0043</a>
+              <a href="https://doi.org/??">DOI:
+                 10.1515/jnma-???</a>
               <br>
-	      (<a href="https://dealii.org/deal92-preprint.pdf"
+	      (<a href="https://dealii.org/deal93-preprint.pdf"
                   target="_top">preprint</a>)
               <br>
               <pre>
-@article{dealII92,
-  title     = {The \texttt{deal.II} Library, Version 9.2},
+@article{dealII93,
+  title     = {The \texttt{deal.II} Library, Version 9.3},
   author    = {Daniel Arndt and Wolfgang Bangerth and Bruno Blais and
-               Thomas C. Clevenger and Marc Fehling and Alexander V. Grayver and
-               Timo Heister and Luca Heltai and Martin Kronbichler and Matthias Maier and
-               Peter Munch and Jean-Paul Pelteret and Reza Rastak and
-               Ignacio Thomas and Bruno Turcksin and Zhuoran Wang and David Wells},
+               Marc Fehling and Rene Gassm{\"o}ller and Timo Heister
+               and Luca Heltai and Uwe K{\"o}cher and Martin
+               Kronbichler and Matthias Maier and Peter Munch and
+               Jean-Paul Pelteret and Sebastian Proell and Konrad
+               Simon and Bruno Turcksin and David Wells and Jiaqi
+               Zhang},
   journal   = {Journal of Numerical Mathematics},
-  publisher = {De Gruyter},
-  year      = {2020},
-  volume    = {28},
-  number    = {3},
-  pages     = {131-146},
-  DOI       = {10.1515/jnma-2020-0043},
-  url       = {https://dealii.org/deal92-preprint.pdf}
+  year      = {2021, accepted for publication},
+  url       = {https://dealii.org/deal93-preprint.pdf}
 }
               </pre>
             </li>
@@ -100,6 +97,25 @@
             Older releases are announced in the following preprints:
             <ul>
               <li>
+	      D. Arndt, W. Bangerth, B. Blais,
+               T. C. Clevenger, M. Fehling, A. V. Grayver,
+               T. Heister, L. Heltai, M. Kronbichler, M. Maier,
+               P. Munch, J.-P. Pelteret, R. Rastak,
+               I. Thomas, B. Turcksin, Z. Wang, D. Wells
+              <br/>
+              <strong>The <abbr>deal.II</abbr> Library, Version 9.2
+              </strong>
+              <br>
+              Journal of Numerical Mathematics, Volume 28, Pages 131-146, 2020.
+              <br>
+              <a href="https://doi.org/10.1515/jnma-2020-0043">DOI:
+                 10.1515/jnma-2020-0043</a>;
+	      <a href="https://dealii.org/deal92-preprint.pdf"
+                  target="_top">preprint</a>;
+              <a href="https://github.com/dealii/publication-list/blob/9e4ccb20ab54973ee484b56ae28c6159bdd1c6cd/publications-2020.bib#L538-L553">bibtex</a>
+              </li>
+
+	      <li>
               D. Arndt, W. Bangerth, T. C. Clevenger, D. Davydov,
               M. Fehling, D. Garcia-Sanchez, G. Harper, T. Heister,
               L. Heltai, M. Kronbichler, R. M. Kynch, M. Maier,
