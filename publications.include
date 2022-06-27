@@ -1,47 +1,46 @@
-      <div class="row">
-        <div class="well" id="referencing">
+<div class="row">
+  <div class="well" id="referencing">
 
 
-          <h2>Referencing <abbr>deal.II</abbr></h2>
+    <h2>Referencing <abbr>deal.II</abbr></h2>
 
-          <p>
-            If you write a paper using results obtained with the help of
-            <abbr>deal.II</abbr>, please cite one or more of the following
-            references:
-          </p>
+    <p>
+      If you write a paper using results obtained with the help of
+      <abbr>deal.II</abbr>, please cite one or more of the following
+      references:
+    </p>
 
-          <ol>
-            <li>
-              Daniel Arndt,
-              Wolfgang Bangerth,
-              Bruno Blais,
-              Marc Fehling,
-              Rene Gassm&ouml;ller,
-              Timo Heister,
-              Luca Heltai,
-              Uwe K&ouml;cher,
-              Martin Kronbichler,
-              Matthias Maier,
-              Peter Munch,
-              Jean-Paul Pelteret,
-              Sebastian Proell,
-              Konrad Simon,
-              Bruno Turcksin,
-              David Wells,
-              Jiaqi Zhang
-              <br/>
-              <strong>The <abbr>deal.II</abbr> Library, Version 9.3
-              </strong>
-              <br>
-	      Journal of Numerical Mathematics, vol. 29, no. 3, pages 171-186, 2021.
-	      <br>
-              <a href="https://doi.org/10.1515/jnma-2021-0081">DOI:
-                 10.1515/jnma-2021-0081</a>
-              <br>
-	      (<a href="https://dealii.org/deal93-preprint.pdf"
-                  target="_top">preprint</a>)
-              <br>
-              <pre>
+    <ol>
+      <li>
+        Daniel Arndt,
+        Wolfgang Bangerth,
+        Bruno Blais,
+        Marc Fehling,
+        Rene Gassm&ouml;ller,
+        Timo Heister,
+        Luca Heltai,
+        Uwe K&ouml;cher,
+        Martin Kronbichler,
+        Matthias Maier,
+        Peter Munch,
+        Jean-Paul Pelteret,
+        Sebastian Proell,
+        Konrad Simon,
+        Bruno Turcksin,
+        David Wells,
+        Jiaqi Zhang
+        <br />
+        <strong>The <abbr>deal.II</abbr> Library, Version 9.3
+        </strong>
+        <br>
+        Journal of Numerical Mathematics, vol. 29, no. 3, pages 171-186, 2021.
+        <br>
+        <a href="https://doi.org/10.1515/jnma-2021-0081">DOI:
+          10.1515/jnma-2021-0081</a>
+        <br>
+        (<a href="https://dealii.org/deal93-preprint.pdf" target="_top">preprint</a>)
+        <br>
+        <pre>
 @article{dealII93,
   title     = {The \texttt{deal.II} Library, Version 9.3},
   author    = {Daniel Arndt and Wolfgang Bangerth and Bruno Blais and
@@ -60,24 +59,23 @@
   pages     = {171--186}
 }
               </pre>
-            </li>
+      </li>
 
-	    <li>
-              D. Arndt, W. Bangerth, D. Davydov, T. Heister,
-              L. Heltai, M. Kronbichler, M. Maier,
-              J.-P. Pelteret, B. Turcksin, D. Wells
-              <br/>
-              <strong>The <abbr>deal.II</abbr> finite element library: design, features, and insights
-              </strong>
-              <br>
-              Computers &amp; Mathematics with Applications, vol. 81, pages 407-422, 2021.
-              <br>
-              <a href="https://doi.org/10.1016/j.camwa.2020.02.022">DOI: 10.1016/j.camwa.2020.02.022</a>
-              <br>
-	      (<a href="https://arxiv.org/abs/1910.13247"
-                  target="_top">preprint</a>)
-              <br>
-              <pre>
+      <li>
+        D. Arndt, W. Bangerth, D. Davydov, T. Heister,
+        L. Heltai, M. Kronbichler, M. Maier,
+        J.-P. Pelteret, B. Turcksin, D. Wells
+        <br />
+        <strong>The <abbr>deal.II</abbr> finite element library: design, features, and insights
+        </strong>
+        <br>
+        Computers &amp; Mathematics with Applications, vol. 81, pages 407-422, 2021.
+        <br>
+        <a href="https://doi.org/10.1016/j.camwa.2020.02.022">DOI: 10.1016/j.camwa.2020.02.022</a>
+        <br>
+        (<a href="https://arxiv.org/abs/1910.13247" target="_top">preprint</a>)
+        <br>
+        <pre>
       @Article{dealii2019design,
         title   = {The {deal.II} finite element library: Design, features, and insights},
         author  = {Daniel Arndt and Wolfgang Bangerth and Denis Davydov and
@@ -92,333 +90,326 @@
         issn    = {0898-1221},
         url     = {https://arxiv.org/abs/1910.13247}
       }</pre>
-            </li>
+      </li>
 
-          </ol>
-
-
-          <p>
-            Older releases are announced in the following preprints:
-            <ul>
-              <li>
-	      D. Arndt, W. Bangerth, B. Blais,
-               T. C. Clevenger, M. Fehling, A. V. Grayver,
-               T. Heister, L. Heltai, M. Kronbichler, M. Maier,
-               P. Munch, J.-P. Pelteret, R. Rastak,
-               I. Thomas, B. Turcksin, Z. Wang, D. Wells
-              <br/>
-              <strong>The <abbr>deal.II</abbr> Library, Version 9.2
-              </strong>
-              <br>
-              Journal of Numerical Mathematics, Volume 28, Pages 131-146, 2020.
-              <br>
-              <a href="https://doi.org/10.1515/jnma-2020-0043">DOI:
-                 10.1515/jnma-2020-0043</a>;
-	      <a href="https://dealii.org/deal92-preprint.pdf"
-                  target="_top">preprint</a>;
-              <a href="https://github.com/dealii/publication-list/blob/9e4ccb20ab54973ee484b56ae28c6159bdd1c6cd/publications-2020.bib#L538-L553">bibtex</a>
-              </li>
-
-	      <li>
-              D. Arndt, W. Bangerth, T. C. Clevenger, D. Davydov,
-              M. Fehling, D. Garcia-Sanchez, G. Harper, T. Heister,
-              L. Heltai, M. Kronbichler, R. M. Kynch, M. Maier,
-              J.-P. Pelteret, B. Turcksin, D. Wells
-              <br/>
-              <strong>The <abbr>deal.II</abbr> Library, Version 9.1
-              </strong>
-              <br>
-              Journal of Numerical Mathematics, Volume 27, Issue 4, Pages 203-213, 2019.
-              <br>
-              <a href="https://doi.org/10.1515/jnma-2019-0064">DOI:
-                 10.1515/jnma-2019-0064</a>;
-	      <a href="https://dealii.org/deal91-preprint.pdf"
-                  target="_top">preprint</a>;
-              <a href="https://github.com/dealii/publication-list/blob/7f166e339a7c82342a5acaca575e67c54ca13d1b/publications-2019.bib#L813-L823">bibtex</a>
-              </li>
-
-              <li>
-              G. Alzetta, D. Arndt, W. Bangerth, V. Boddu,
-              B. Brands, D. Davydov, R. Gassmoeller, T. Heister,
- 	      L. Heltai, K. Kormann, M. Kronbichler, M. Maier,
-              J.-P. Pelteret, B. Turcksin, D. Wells
-              <br/>
-              <strong>The <abbr>deal.II</abbr> Library, Version 9.0
-              </strong>
-              <br>
-              Journal of Numerical Mathematics, 26(4), pp. 173-183, 2018.
-              <br>
-              <a href="https://doi.org/10.1515/jnma-2018-0054">DOI:
-                 10.1515/jnma-2018-0054</a>;
-	      <a href="https://dealii.org/deal90-preprint.pdf"
-                 target="_top">preprint</a>;
-	      <a href="https://github.com/dealii/publication-list/blob/7f166e339a7c82342a5acaca575e67c54ca13d1b/publications-2018.bib#L96-L105">bibtex</a>
-	      </li>
-
-              <li>
-                D. Arndt, W. Bangerth, D. Davydov, T. Heister,
-                L. Heltai, M. Kronbichler, M. Maier, J.-P. Pelteret, B. Turcksin, D. Wells<br/>
-                <strong>The <abbr>deal.II</abbr> Library, Version 8.5
-                </strong>
-                <br>
-                Journal of Numerical Mathematics, vol. 25,
-                pp. 137-146, 2017.
-                <br>
-                <a href="https://doi.org/10.1515/jnma-2017-0058">DOI:
-                  10.1515/jnma-2017-0058</a>;
-                <a href="https://dealii.org/deal85-preprint.pdf"
-                    target="_top">preprint</a>
-              </li>
-
-              <li>
-                W. Bangerth, D. Davydov, T. Heister, L. Heltai, G. Kanschat, M. Kronbichler, M. Maier, B. Turcksin, D. Wells
-                <br>
-                <strong>The <abbr>deal.II</abbr> Library, Version 8.4
-                </strong>
-                <br>
-                Journal of Numerical Mathematics, vol. 24,
-                pp. 135-141, 2016.
-                <br>
-                <a href="http://dx.doi.org/10.1515/jnma-2016-1045"
-                   target="_top">DOI:
-                  10.1515/jnma-2016-1045</a>
-                <br>
-              </li>
-
-              <li>
-                W. Bangerth, T. Heister, L. Heltai, G. Kanschat, M. Kronbichler, M. Maier, B. Turcksin
-                <br>
-                <strong>The <abbr>deal.II</abbr> Library, Version 8.3
-                </strong>
-                <br>
-                Archive of Numerical Software, vol. 4, pp. 1-11, 2016.
-                <br>
-                <a href="http://dx.doi.org/10.11588/ans.2016.100.23122"
-                   target="_top">DOI:
-                  10.11588/ans.2016.100.23122</a>
-                <br>
-              </li>
-
-              <li>
-                W. Bangerth, T. Heister, L. Heltai, G. Kanschat, M. Kronbichler, M. Maier, T. D. Young
-                <br>
-                <strong>The <abbr>deal.II</abbr> Library, Version 8.2
-                </strong>
-                <br>
-                Archive of Numerical Software, vol. 3, 2015.
-                <br>
-                <a href="http://dx.doi.org/10.11588/ans.2015.100.18031"
-                   target="_top">DOI:
-                  10.11588/ans.2015.100.18031</a>
-                <br>
-              </li>
-
-              <li>
-                W. Bangerth, T. Heister, L. Heltai, G. Kanschat, M. Kronbichler, M. Maier, T. D. Young <br/>
-                <strong>The <abbr>deal.II</abbr> Library, Version 8.1
-                </strong>
-                <br>
-                <a href="http://arxiv.org/abs/1312.2266v4" target="_top">arxiv:1312.2266v4</a>, 2013.
-                <br>
-              </li>
-
-              <li>
-                W. Bangerth, T. Heister, L. Heltai, G. Kanschat, M. Kronbichler, M. Maier, T. D. Young <br/>
-                <strong>The <abbr>deal.II</abbr> Library, Version 8.0
-                </strong>
-                <br>
-                <a href="http://arxiv.org/abs/1312.2266v3" target="_top">arxiv:1312.2266v3</a>, 2013.
-                <br>
-              </li>
-            </ul>
-
-        </div>
+    </ol>
 
 
-        <div class="well" id="details">
+    <p>
+      Older releases are announced in the following preprints:
+    <ul>
+      <li>
+        D. Arndt, W. Bangerth, B. Blais,
+        T. C. Clevenger, M. Fehling, A. V. Grayver,
+        T. Heister, L. Heltai, M. Kronbichler, M. Maier,
+        P. Munch, J.-P. Pelteret, R. Rastak,
+        I. Thomas, B. Turcksin, Z. Wang, D. Wells
+        <br />
+        <strong>The <abbr>deal.II</abbr> Library, Version 9.2
+        </strong>
+        <br>
+        Journal of Numerical Mathematics, Volume 28, Pages 131-146, 2020.
+        <br>
+        <a href="https://doi.org/10.1515/jnma-2020-0043">DOI:
+          10.1515/jnma-2020-0043</a>;
+        <a href="https://dealii.org/deal92-preprint.pdf" target="_top">preprint</a>;
+        <a
+          href="https://github.com/dealii/publication-list/blob/9e4ccb20ab54973ee484b56ae28c6159bdd1c6cd/publications-2020.bib#L538-L553">bibtex</a>
+      </li>
 
-          <h2>Publications on details of <abbr>deal.II</abbr></h2>
+      <li>
+        D. Arndt, W. Bangerth, T. C. Clevenger, D. Davydov,
+        M. Fehling, D. Garcia-Sanchez, G. Harper, T. Heister,
+        L. Heltai, M. Kronbichler, R. M. Kynch, M. Maier,
+        J.-P. Pelteret, B. Turcksin, D. Wells
+        <br />
+        <strong>The <abbr>deal.II</abbr> Library, Version 9.1
+        </strong>
+        <br>
+        Journal of Numerical Mathematics, Volume 27, Issue 4, Pages 203-213, 2019.
+        <br>
+        <a href="https://doi.org/10.1515/jnma-2019-0064">DOI:
+          10.1515/jnma-2019-0064</a>;
+        <a href="https://dealii.org/deal91-preprint.pdf" target="_top">preprint</a>;
+        <a
+          href="https://github.com/dealii/publication-list/blob/7f166e339a7c82342a5acaca575e67c54ca13d1b/publications-2019.bib#L813-L823">bibtex</a>
+      </li>
 
-          <p>
-            The following publications explain in great detail the
-            implementation of algorithms and data structures of various
-            components of <abbr>deal.II</abbr>:
-          </p>
+      <li>
+        G. Alzetta, D. Arndt, W. Bangerth, V. Boddu,
+        B. Brands, D. Davydov, R. Gassmoeller, T. Heister,
+        L. Heltai, K. Kormann, M. Kronbichler, M. Maier,
+        J.-P. Pelteret, B. Turcksin, D. Wells
+        <br />
+        <strong>The <abbr>deal.II</abbr> Library, Version 9.0
+        </strong>
+        <br>
+        Journal of Numerical Mathematics, 26(4), pp. 173-183, 2018.
+        <br>
+        <a href="https://doi.org/10.1515/jnma-2018-0054">DOI:
+          10.1515/jnma-2018-0054</a>;
+        <a href="https://dealii.org/deal90-preprint.pdf" target="_top">preprint</a>;
+        <a
+          href="https://github.com/dealii/publication-list/blob/7f166e339a7c82342a5acaca575e67c54ca13d1b/publications-2018.bib#L96-L105">bibtex</a>
+      </li>
+
+      <li>
+        D. Arndt, W. Bangerth, D. Davydov, T. Heister,
+        L. Heltai, M. Kronbichler, M. Maier, J.-P. Pelteret, B. Turcksin, D. Wells<br />
+        <strong>The <abbr>deal.II</abbr> Library, Version 8.5
+        </strong>
+        <br>
+        Journal of Numerical Mathematics, vol. 25,
+        pp. 137-146, 2017.
+        <br>
+        <a href="https://doi.org/10.1515/jnma-2017-0058">DOI:
+          10.1515/jnma-2017-0058</a>;
+        <a href="https://dealii.org/deal85-preprint.pdf" target="_top">preprint</a>
+      </li>
+
+      <li>
+        W. Bangerth, D. Davydov, T. Heister, L. Heltai, G. Kanschat, M. Kronbichler, M. Maier, B. Turcksin, D. Wells
+        <br>
+        <strong>The <abbr>deal.II</abbr> Library, Version 8.4
+        </strong>
+        <br>
+        Journal of Numerical Mathematics, vol. 24,
+        pp. 135-141, 2016.
+        <br>
+        <a href="http://dx.doi.org/10.1515/jnma-2016-1045" target="_top">DOI:
+          10.1515/jnma-2016-1045</a>
+        <br>
+      </li>
+
+      <li>
+        W. Bangerth, T. Heister, L. Heltai, G. Kanschat, M. Kronbichler, M. Maier, B. Turcksin
+        <br>
+        <strong>The <abbr>deal.II</abbr> Library, Version 8.3
+        </strong>
+        <br>
+        Archive of Numerical Software, vol. 4, pp. 1-11, 2016.
+        <br>
+        <a href="http://dx.doi.org/10.11588/ans.2016.100.23122" target="_top">DOI:
+          10.11588/ans.2016.100.23122</a>
+        <br>
+      </li>
+
+      <li>
+        W. Bangerth, T. Heister, L. Heltai, G. Kanschat, M. Kronbichler, M. Maier, T. D. Young
+        <br>
+        <strong>The <abbr>deal.II</abbr> Library, Version 8.2
+        </strong>
+        <br>
+        Archive of Numerical Software, vol. 3, 2015.
+        <br>
+        <a href="http://dx.doi.org/10.11588/ans.2015.100.18031" target="_top">DOI:
+          10.11588/ans.2015.100.18031</a>
+        <br>
+      </li>
+
+      <li>
+        W. Bangerth, T. Heister, L. Heltai, G. Kanschat, M. Kronbichler, M. Maier, T. D. Young <br />
+        <strong>The <abbr>deal.II</abbr> Library, Version 8.1
+        </strong>
+        <br>
+        <a href="http://arxiv.org/abs/1312.2266v4" target="_top">arxiv:1312.2266v4</a>, 2013.
+        <br>
+      </li>
+
+      <li>
+        W. Bangerth, T. Heister, L. Heltai, G. Kanschat, M. Kronbichler, M. Maier, T. D. Young <br />
+        <strong>The <abbr>deal.II</abbr> Library, Version 8.0
+        </strong>
+        <br>
+        <a href="http://arxiv.org/abs/1312.2266v3" target="_top">arxiv:1312.2266v3</a>, 2013.
+        <br>
+      </li>
+    </ul>
+
+  </div>
 
 
-          <ol>
-            <li>
-              R. Agelek, M. Anderson, W. Bangerth, W. L. Barth
-              <br>
-              <strong>On orienting edges of unstructured two- and three-dimensional meshes
-              </strong>
-              <br>
-              ACM Transactions on Mathematical Software, vol. 44, article 5, 2017.
-            </li>
+  <div class="well" id="details">
 
-            <li>
-              W. Bangerth,
-              C. Burstedde,
-              T. Heister,
-              M. Kronbichler
-              <br>
-              <strong>Algorithms and Data Structures for Massively Parallel Generic
-                Adaptive Finite Element Codes</strong>
-              <br>
-              ACM Transactions on Mathematical Software, vol. 38, No. 2, pp. 14/1-28, 2012.
-              <br>
-              DOI: <a href="http://dx.doi.org/10.1145/2049673.2049678">10.1145/2049673.2049678</a>
-            </li>
+    <h2>Publications on details of <abbr>deal.II</abbr></h2>
 
-            <li>
-              W. Bangerth, T. Heister
-              <br>
-              <strong>What makes computational open source software libraries successful?</strong>
-              <br>
-              Computational Science &amp; Discovery, vol. 6, article 015010, 2013.
-            </li>
+    <p>
+      The following publications explain in great detail the
+      implementation of algorithms and data structures of various
+      components of <abbr>deal.II</abbr>:
+    </p>
 
-            <li>
-              W. Bangerth, O. Kayser-Herold
-              <br>
-              <strong>Data Structures and Requirements for hp Finite Element
-                Software
-              </strong>
-              <br>
-              ACM Transactions on Mathematical Software, vol. 36, pp. 4/1-31, 2009.
-            </li>
+    <ol>
+      <li>
+        M. Fehling, W. Bangerth
+        <br>
+        <strong>Algorithms for Parallel Generic <i>hp</i>-adaptive Finite Element Software
+        </strong><br>
+        <a href="https://arxiv.org/abs/2206.06512">arXiv:2206.06512</a>, 2022.
+      </li>
 
-            <li>
-              D. Davydov, T. Gerasimov, J.-P. Pelteret, P. Steinmann
-              <br>
-              <strong>Convergence study of the h-adaptive PUM and the hp-adaptive FEM applied to eigenvalue problems in quantum mechanics</strong>
-              <br>
-              Advanced Modeling and Simulation in Engineering
-              Sciences, vol. 4, pp. 2213-7467. 2017.
-              <br>
-              DOI: <a href="https://doi.org/10.1186/s40323-017-0093-0">10.1186/s40323-017-0093-0</a>
-            </li>
+      <li>
+        L. Heltai, W. Bangerth, M. Kronbichler, A. Mola
+        <br />
+        <strong>Propagating geometry information to finite element computations
+        </strong>
+        <br />
+        ACM Transactions on Mathematical Software, vol. 47, article 4,
+        1–30, 2021.
+        <br>
+        DOI: <a href="https://dx.doi.org/10.1145/3468428">10.1145/3468428</a>
+      </li>
 
-            <li>
-              L. Heltai, W. Bangerth, M. Kronbichler, A. Mola
-              <br />
-              <strong>Using exact geometry information in finite element computations
-              </strong>
-              <br />
-              Submitted, 2019.
-              <br>
-              Available as <a href="https://arxiv.org/abs/1910.09824">arXiv:1910.09824</a>.
-            </li>
+      <li>
+        T. C. Clevenger, T. Heister, G. Kanschat, M. Kronbichler
+        <br>
+        <strong>A Flexible, Parallel, Adaptive Geometric Multigrid Method for FEM</strong>
+        <br>
+        ACM Transactions on Mathematical Software, vol. 47, 1, Article 7, 2020.
+        <br>
+        DOI: <a href="https://doi.org/10.1145/3425193">10.1145/3425193</a>
+      </li>
 
-            <li>
-              B. Janssen, G. Kanschat
-              <br>
-              <strong> Adaptive Multilevel Methods with Local Smoothing for H<sup>1</sup>-
-                and H<sup>curl</sup>-Conforming High Order Finite Element Methods</strong>
-              <br>
-              SIAM J. Sci. Comput., vol. 33/4, pp. 2095-2114, 2011.
-              <br>
-              DOI: <a href="http://dx.doi.org/10.1137/090778523">10.1137/090778523</a>
-            </li>
+      <li> A. Sartori, N. Giuliani, M. Bardelloni, L. Heltai
+        <br>
+        <strong>deal2lkit: A toolkit library for high performance
+          programming in deal.II</strong>
+        <br>
+        SoftwareX, vol. 7, pp. 318-327, 2018.
+        <br>
+        DOI: <a href="https://doi.org/10.1016/j.softx.2018.09.004">10.1016/j.softx.2018.09.004</a>
+      </li>
 
-            <li>
-              G. Kanschat
-              <br>
-              <strong>Multi-level methods for discontinuous Galerkin FEM on locally refined meshes</strong>
-              <br>
-              Comput. &amp; Struct., vol. 82, pp. 2437-2445, 2004.
-            </li>
+      <li>
+        R. Agelek, M. Anderson, W. Bangerth, W. L. Barth
+        <br>
+        <strong>On orienting edges of unstructured two- and three-dimensional meshes
+        </strong>
+        <br>
+        ACM Transactions on Mathematical Software, vol. 44, article 5, 2017.
+      </li>
 
-            <li>
-              M. Kronbichler, K. Kormann
-              <br>
-              <strong>A generic interface for parallel cell-based finite element
-                operator application
-              </strong>
-              <br>
-              Computers and Fluids, vol. 63, pp. 135-147, 2012.
-              <br>
-              DOI: <a href="http://dx.doi.org/10.1016/j.compfluid.2012.04.012">10.1016/j.compfluid.2012.04.012</a>
-            </li>
+      <li>
+        D. Davydov, T. Gerasimov, J.-P. Pelteret, P. Steinmann
+        <br>
+        <strong>Convergence study of the h-adaptive PUM and the hp-adaptive FEM applied to eigenvalue problems in
+          quantum mechanics</strong>
+        <br>
+        Advanced Modeling and Simulation in Engineering
+        Sciences, vol. 4, pp. 2213-7467. 2017.
+        <br>
+        DOI: <a href="https://doi.org/10.1186/s40323-017-0093-0">10.1186/s40323-017-0093-0</a>
+      </li>
 
-            <li>
-              M. Maier, M. Bardelloni, L. Heltai
-              <br>
-              <strong>LinearOperator &mdash; a generic, high-level
-                expression syntax for linear algebra</strong>
-              <br>
-              Computers and Mathematics with Applications, vol. 72, issue 1, pp. 1-24, 2016.
-              <br>
-              DOI: <a href="http://dx.doi.org/10.1016/j.camwa.2016.04.024">10.1016/j.camwa.2016.04.024</a>
-              <!-- http://www.sciencedirect.com/science/article/pii/S089812211630205X -->
-            </li>
+      <li>
+        B. Turcksin, M. Kronbichler, W. Bangerth
+        <br>
+        <strong>WorkStream &mdash; a design pattern for multicore-enabled finite element computations
+        </strong>
+        <br>
+        ACM Transactions on Mathematical Software, vol. 43,
+        pp. 2/1-29, 2016.
+      </li>
 
-            <li>
-	      A. Sartori,
-	      N. Giuliani,
-	      M. Bardelloni,
-              L. Heltai
-              <br>
-              <strong>deal2lkit: A toolkit library for high performance
-              programming in deal.II</strong>
-              <br>
-              SoftwareX, vol. 7, pp. 318-327, 2018.
-              <br>
-              DOI: <a href="https://doi.org/10.1016/j.softx.2018.09.004">10.1016/j.softx.2018.09.004</a>
-            </li>
+      <li>
+        M. Maier, M. Bardelloni, L. Heltai
+        <br>
+        <strong>LinearOperator &mdash; a generic, high-level
+          expression syntax for linear algebra</strong>
+        <br>
+        Computers and Mathematics with Applications, vol. 72, issue 1, pp. 1-24, 2016.
+        <br>
+        DOI: <a href="http://dx.doi.org/10.1016/j.camwa.2016.04.024">10.1016/j.camwa.2016.04.024</a>
+        <!-- http://www.sciencedirect.com/science/article/pii/S089812211630205X -->
+      </li>
 
-            <li>
-              B. Turcksin, M. Kronbichler, W. Bangerth
-              <br>
-              <strong>WorkStream &mdash; a design pattern for multicore-enabled finite element computations
-              </strong>
-              <br>
-              ACM Transactions on Mathematical Software, vol. 43,
-              pp. 2/1-29, 2016.
-            </li>
+      <li>
+        W. Bangerth, T. Heister
+        <br>
+        <strong>What makes computational open source software libraries successful?</strong>
+        <br>
+        Computational Science &amp; Discovery, vol. 6, article 015010, 2013.
+      </li>
 
-            <li>
-              T. C. Clevenger, T. Heister, G. Kanschat, M. Kronbichler
-              <br>
-              <strong>A Flexible, Parallel, Adaptive Geometric Multigrid Method for FEM</strong>
-              <br>
-              ACM Transactions on Mathematical Software, vol. 47, 1, Article 7, 2020.
-	      <br>
-              DOI: <a href="https://doi.org/10.1145/3425193">10.1145/3425193</a>
-            </li>
+      <li>
+        W. Bangerth,
+        C. Burstedde,
+        T. Heister,
+        M. Kronbichler
+        <br>
+        <strong>Algorithms and Data Structures for Massively Parallel Generic
+          Adaptive Finite Element Codes</strong>
+        <br>
+        ACM Transactions on Mathematical Software, vol. 38, No. 2, pp. 14/1-28, 2012.
+        <br>
+        DOI: <a href="http://dx.doi.org/10.1145/2049673.2049678">10.1145/2049673.2049678</a>
+      </li>
 
-            <li>
-              M. Fehling, W. Bangerth
-              <br>
-              <strong>Algorithms for Parallel Generic <i>hp</i>-adaptive Finite Element Software
-              <br>
-              <a href="https://arxiv.org/abs/2206.06512">arXiv:2206.06512</a>, 2022.
-            </li>
-          </ol>
+      <li>
+        M. Kronbichler, K. Kormann
+        <br>
+        <strong>A generic interface for parallel cell-based finite element
+          operator application
+        </strong>
+        <br>
+        Computers and Fluids, vol. 63, pp. 135-147, 2012.
+        <br>
+        DOI: <a href="http://dx.doi.org/10.1016/j.compfluid.2012.04.012">10.1016/j.compfluid.2012.04.012</a>
+      </li>
 
-          <p>  For massively parallel
-            computations, <abbr>deal.II</abbr> builds on the
-            <a href="http://www.p4est.org/" target="_top">p4est</a>
-            library. If you use this functionality, please also cite the
-            p4est paper listed at their website.
-          </p>
-          <p>
-            <abbr>deal.II</abbr> is a component of the
-            <a href="http://www.spec.org/cpu2006/">SPEC CPU2006</a> and
-            <a href="http://www.spec.org/cpu2017/">SPEC CPU2017</a>
-            benchmark
-            suites. There are hundreds of papers that use and describe this
-            testsuite as a reference for compiler and hardware
-            optimizations. The following special issue gives a detailed
-            comparison with respect to many different metrics of the
-            benchmarks in SPEC CPU2006, including <abbr>deal.II</abbr>:
-            <ul>
-              <li>
-                <strong>Special Issue: SPEC CPU2006 analysis (Editor: John Henning)
-                </strong>
-                <br>
-                ACM SIGARCH Computer Architecture News, vol. 35, issue 1, 2007.
-              </li>
-            </ul>
-        </div>
-      </div>
+      <li>
+        B. Janssen, G. Kanschat
+        <br>
+        <strong> Adaptive Multilevel Methods with Local Smoothing for H<sup>1</sup>-
+          and H<sup>curl</sup>-Conforming High Order Finite Element Methods</strong>
+        <br>
+        SIAM J. Sci. Comput., vol. 33/4, pp. 2095-2114, 2011.
+        <br>
+        DOI: <a href="http://dx.doi.org/10.1137/090778523">10.1137/090778523</a>
+      </li>
+
+      <li>
+        W. Bangerth, O. Kayser-Herold
+        <br>
+        <strong>Data Structures and Requirements for hp Finite Element
+          Software
+        </strong>
+        <br>
+        ACM Transactions on Mathematical Software, vol. 36, pp. 4/1-31, 2009.
+      </li>
+
+      <li>
+        G. Kanschat
+        <br>
+        <strong>Multi-level methods for discontinuous Galerkin FEM on locally refined meshes</strong>
+        <br>
+        Comput. &amp; Struct., vol. 82, pp. 2437-2445, 2004.
+      </li>
+    </ol>
+
+    <p> For massively parallel
+      computations, <abbr>deal.II</abbr> builds on the
+      <a href="http://www.p4est.org/" target="_top">p4est</a>
+      library. If you use this functionality, please also cite the
+      p4est paper listed at their website.
+    </p>
+    <p>
+      <abbr>deal.II</abbr> is a component of the
+      <a href="http://www.spec.org/cpu2006/">SPEC CPU2006</a> and
+      <a href="http://www.spec.org/cpu2017/">SPEC CPU2017</a>
+      benchmark
+      suites. There are hundreds of papers that use and describe this
+      testsuite as a reference for compiler and hardware
+      optimizations. The following special issue gives a detailed
+      comparison with respect to many different metrics of the
+      benchmarks in SPEC CPU2006, including <abbr>deal.II</abbr>:
+    <ul>
+      <li>
+        <strong>Special Issue: SPEC CPU2006 analysis (Editor: John Henning)
+        </strong>
+        <br>
+        ACM SIGARCH Computer Architecture News, vol. 35, issue 1, 2007.
+      </li>
+    </ul>
+  </div>
+</div>
