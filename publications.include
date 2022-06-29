@@ -12,6 +12,43 @@
 
     <ol>
       <li>
+       	      Daniel Arndt,
+              Wolfgang Bangerth,
+	      Marco Feder,
+              Marc Fehling,
+	      Rene Gassm&ouml;ller,
+              Timo Heister,
+              Luca Heltai,
+              Martin Kronbichler,
+              Matthias Maier,
+              Peter Munch,
+              Jean-Paul Pelteret,
+	      Simon Sticko,
+              Bruno Turcksin,
+              David Wells
+        <br />
+        <strong>The <abbr>deal.II</abbr> Library, Version 9.4
+        </strong>
+        <br>
+        <br>
+        (<a href="https://dealii.org/deal94-preprint.pdf" target="_top">preprint</a>)
+        <br>
+        <pre>
+@article{dealII94,
+  title     = {The \texttt{deal.II} Library, Version 9.4},
+  author    = {Daniel Arndt and Wolfgang Bangerth Marco Feder and
+               Marc Fehling and Rene Gassm{\"o}ller and Timo Heister
+               and Luca Heltai and Martin Kronbichler and
+	       Matthias Maier and Peter Munch and Jean-Paul Pelteret
+	       and Simon Sticko and Bruno Turcksin and David Wells},
+  journal   = {submitted},
+  year      = {2022},
+  url       = {https://dealii.org/deal94-preprint.pdf},
+}
+              </pre>
+      </li>
+
+      <li>
         Daniel Arndt,
         Wolfgang Bangerth,
         Bruno Blais,
