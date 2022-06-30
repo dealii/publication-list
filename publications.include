@@ -30,6 +30,8 @@
         <strong>The <abbr>deal.II</abbr> Library, Version 9.4
         </strong>
         <br>
+        accepted, Journal of Numerical Mathematics.
+        <br>
         <br>
         (<a href="https://dealii.org/deal94-preprint.pdf" target="_top">preprint</a>)
         <br>
@@ -41,7 +43,8 @@
                and Luca Heltai and Martin Kronbichler and
 	       Matthias Maier and Peter Munch and Jean-Paul Pelteret
 	       and Simon Sticko and Bruno Turcksin and David Wells},
-  journal   = {submitted},
+  journal   = {Journal of Numerical Mathematics},
+  note      = {Accepted},
   year      = {2022},
   url       = {https://dealii.org/deal94-preprint.pdf},
 }
