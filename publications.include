@@ -32,6 +32,8 @@
         <br>
         accepted, Journal of Numerical Mathematics.
         <br>
+        <a href="https://doi.org/10.1515/jnma-2022-0054">DOI:
+          10.1515/jnma-2022-0054</a>
         <br>
         (<a href="https://dealii.org/deal94-preprint.pdf" target="_top">preprint</a>)
         <br>
@@ -45,6 +47,7 @@
 	       and Simon Sticko and Bruno Turcksin and David Wells},
   journal   = {Journal of Numerical Mathematics},
   note      = {Accepted},
+  doi       = {10.1515/jnma-2022-0054},
   year      = {2022},
   url       = {https://dealii.org/deal94-preprint.pdf},
 }
