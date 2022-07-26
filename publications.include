@@ -40,7 +40,7 @@
         <pre>
 @article{dealII94,
   title     = {The \texttt{deal.II} Library, Version 9.4},
-  author    = {Daniel Arndt and Wolfgang Bangerth Marco Feder and
+  author    = {Daniel Arndt and Wolfgang Bangerth and Marco Feder and
                Marc Fehling and Rene Gassm{\"o}ller and Timo Heister
                and Luca Heltai and Martin Kronbichler and
 	       Matthias Maier and Peter Munch and Jean-Paul Pelteret
