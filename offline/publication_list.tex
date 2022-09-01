@@ -13,14 +13,33 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[colorlinks,urlcolor=blue]{hyperref}
+
+% add custom field for preprint urls to biblatex datamodel
+\begin{filecontents}{preprint-uri.dbx}
+\DeclareDatamodelFields[type=field, datatype=uri]{preprint}
+\DeclareDatamodelEntryfields{preprint}
+\end{filecontents}
+
 \usepackage[
   backend=biber,
   sorting=ydnt,
   defernumbers=true,
   doi=true,
-  refsection=section
+  refsection=section,
+  datamodel=preprint-uri
   ]{biblatex}
 \AtBeginBibliography{\small}
+
+% teach 'printfield' how to present the preprint field
+\DeclareFieldFormat{preprint}{\textsc{preprint:} \url{#1}.}
+% write the preprint field at the end of each bibitem
+\AtEveryBibitem{%
+  \csappto{blx@bbx@\thefield{entrytype}}{%
+    \iffieldundef{preprint}{}{%
+      \space \printfield{preprint}
+    }
+  }
+}
 
 \newcommand{\addnewbibyear}[1]{%
 \begin{refsection}[../publications-#1.bib]
