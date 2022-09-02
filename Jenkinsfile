@@ -68,7 +68,8 @@ pipeline
             sh '''
                cd offline
                pdflatex -interaction=nonstopmode publication_list.tex
-               biber publication_list
+               biber publication_list | tee biber.log
+               grep WARN biber.log | grep Duplicate && exit 1
                pdflatex -interaction=nonstopmode publication_list.tex
                '''
             archiveArtifacts artifacts: 'offline/publication_list.pdf', fingerprint: true
