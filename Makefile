@@ -16,5 +16,20 @@ publications.html: Makefile
 	sed -i '/publications.include/d' publications.html
 	rm -rf temp/
 
+# remove jabref strings before calling bibtool to suppress warnings
+sort: Makefile
+	@if ! command -v bibtool > /dev/null ; then \
+		echo "ERROR. Install bibtool to use this feature." >&2 ; \
+		echo "Consult the README for instructions:" >&2 ; \
+		echo "  https://github.com/dealii/publication-list#installing-bibtool" >&2 ; \
+		exit 1 ; \
+	fi ; \
+	for f in publications-*.bib ; do \
+		sed -i 's/% Encoding: US-ASCII//' $$f ; \
+		bibtool -r bibtool.rsc -i $$f -o $$f ; \
+		sed -i '1s/^/% Encoding: US-ASCII\n/' $$f ; \
+		sed -i '$$s/$$/\n\n@Comment{jabref-meta: databaseType:bibtex;}/' $$f ; \
+	done
+
 # for now always force a rebuild:
 .PHONY: publications.html latex

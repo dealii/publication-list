@@ -208,6 +208,44 @@ note = {In press},
 By adding these fields to your contribution, it will help us better maintain our database and help us determine when to update the status of your entry as it moves through the publication stage.
 We would like to keep the status of your manuscripts as up-to-date as possible.
 
+## Installing `bibtool`
+[`bibtool`](http://www.gerd-neugebauer.de/software/TeX/BibTool/en/) is a tool for manipulating BibTeX databases, i.e., the actual `*.bib` files in which you store all literature entries.
+We use it to format the publication list to keep it maintained. After installing `bibtool`, you can format the publication list.
+```
+make sort
+```
+
+### Installation via repositories
+#### Linux
+`bibtool` is available as a package in most [Linux distributions](https://pkgs.org/search/?q=bibtool).
+#### macOS
+You can install `bibtool` via [homebrew](https://formulae.brew.sh/formula/bib-tool) or [macports](https://ports.macports.org/port/BibTool/).
+#### Windows
+Use Windows WSL and follow the Linux instructions.
+
+### Manual installation
+If you need to install `bibtool` manually, follow these instructions.
+1. Download and extract the [latest release tarball](http://www.gerd-neugebauer.de/software/TeX/BibTool/BibTool-2.68.tar.gz).
+2. Autoconfigure the package and provide the directory where you want to install `bibtool`.
+3. Compile and install the package.
+4. Make sure `bibtool` is accessible in your system path variable.
+```
+wget http://www.gerd-neugebauer.de/software/TeX/BibTool/BibTool-2.68.tar.gz
+tar xfz BibTool-2.68.tar.gz
+cd BibTool
+./configure --prefix=/path/to/bibtool
+make install
+echo "export PATH=$PATH:/path/to/bibtool/bin" >> ~/.bashrc
+```
+After the installation succeeded, make sure that you can call `bibtool` from your terminal.
+```
+$ bibtool -V
+BibTool Vers. 2.68 (C) 1996-2019 Gerd Neugebauer
+
+Library path: .:/path/to/bibtool/lib/BibTool
+Special configuration options: none
+```
+
 ## A final word...
 
 Thank you very much for your contribution! We appreciate any entries to the list, as well as maintenance for the existing entries.
