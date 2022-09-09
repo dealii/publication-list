@@ -9,4 +9,7 @@ print.line.length = 999
 print.use.tab = off
 print.wide.equal = on
 
+% use braces instead of double quotes as delimiters
+resource braces
+
 sort = on
