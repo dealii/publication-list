@@ -1,3 +1,6 @@
+delete.field = {keywords}
+delete.field = {abstract}
+
 key.format = short
 key.generation = on
 
