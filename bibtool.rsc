@@ -15,6 +15,9 @@ print.wide.equal = on
 % use braces instead of double quotes as delimiters
 resource braces
 
+% semantic checks for year fields
+resource check_y
+
 % style improvements: no empty fields, fix page ranges, pure numerical fields
 resource improve
 
