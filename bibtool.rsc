@@ -15,4 +15,7 @@ print.wide.equal = on
 % use braces instead of double quotes as delimiters
 resource braces
 
+% translate iso 8859/1 characters to latex
+resource iso2tex
+
 sort = on
