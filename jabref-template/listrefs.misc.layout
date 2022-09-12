@@ -46,8 +46,8 @@
 
         -->
 
-    \begin{howpublished}  \howpublished\end{howpublished}<!--
-    -->\begin{publisher}, \format[HTMLChars]{\publisher}\end{publisher}<!--
+    \begin{howpublished}  \howpublished,\end{howpublished}<!--
+    -->\begin{publisher}  \format[HTMLChars]{\publisher}\end{publisher}<!--
       -->\begin{address}, \format[HTMLChars]{\address}\end{address}<!--
         -->\begin{pages}, pp. \format[FormatPagesForHTML]{\pages}\end{pages}<!--
          -->\begin{note}  (\format[HTMLChars]{\note})\end{note}<!--
