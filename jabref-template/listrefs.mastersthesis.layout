@@ -43,12 +43,16 @@
       [<a href="javascript:toggleInfo('\format{\bibtexkey}','bibtex')">BibTeX</a>]
 
       \begin{doi}
-	[<a href="\format[DOICheck]{\doi}" target="_blank">DOI</a>]
+        [<a href="\format[DOICheck]{\doi}" target="_blank">DOI</a>]
       \end{doi}
 
       \begin{url}
         [<a href="\format{\url}" target="_blank">URL</a>]
       \end{url}
+
+      \begin{preprint}
+        [<a href="\format{\preprint}" target="_blank">PREPRINT</a>]
+      \end{preprint}
 
       \begin{file}
         [<a href="\format[WrapFileLinks(\r,,pdf)]{\file}" target="_blank">PDF</a>]
