@@ -26,7 +26,7 @@ sort: Makefile
 	fi ; \
 	for f in publications-*.bib ; do \
 		sed -i 's/% Encoding: US-ASCII//' $$f ; \
-		bibtool -r bibtool.rsc -i $$f -o $$f ; \
+		bibtool -r bibtool.rsc -i $$f -o $$f || exit 1 ; \
 		sed -i '1s/^/% Encoding: US-ASCII\n/' $$f ; \
 		sed -i '$$s/$$/\n\n@Comment{jabref-meta: databaseType:bibtex;}/' $$f ; \
 	done

@@ -5,6 +5,9 @@ delete.field = {abstract}
 key.format = {%d(year):%-2n(author):%-W(title)}
 key.generation = on
 
+% exit on first error (avoids contamination of bib files or loss of data)
+parse.exit.on.error = on
+
 print.align = 12
 print.align.key = 0
 print.align.string = 0
