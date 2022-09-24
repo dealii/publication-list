@@ -25,9 +25,6 @@ resource check_y
 % style improvements: no empty fields, fix page ranges, pure numerical fields
 resource improve
 
-% translate iso 8859/1 characters to latex
-resource iso2tex
-
 # sort order for fields
 resource sort_fld
 
