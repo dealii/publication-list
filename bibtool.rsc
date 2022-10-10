@@ -25,7 +25,7 @@ resource check_y
 % style improvements: no empty fields, fix page ranges, pure numerical fields
 resource improve
 
-# sort order for fields
+% sort order for fields
 resource sort_fld
 
 sort = on
