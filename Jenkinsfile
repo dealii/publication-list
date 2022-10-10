@@ -56,6 +56,24 @@ pipeline
           }
         }
 
+        stage("sort")
+        {
+          post {
+            failure {
+              githubNotify context: 'CI', description: 'invalid formatting found',  status: 'FAILURE'
+            }
+          }
+          steps
+          {
+            // check if predefined format is matched:
+            sh '''#!/bin/bash
+               make sort || exit $?
+               git diff
+               git diff-files --quiet || exit $?
+               '''
+          }
+        }
+
         stage("latex")
         {
           post {
