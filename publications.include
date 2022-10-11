@@ -304,7 +304,7 @@
         ACM Transactions on Mathematical Software, vol. 47, issue 4, article 32,
         1-30, 2021.
         <br>
-        DOI: <a href="https://dx.doi.org/10.1145/3468428">10.1145/3468428</a>
+        DOI: <a href="https://doi.org/10.1145/3468428">10.1145/3468428</a>
       </li>
 
       <li>
@@ -334,6 +334,8 @@
         </strong>
         <br>
         ACM Transactions on Mathematical Software, vol. 44, article 5, 2017.
+        <br>
+        DOI: <a href="https://doi.org/10.1145/3061708">10.1145/3061708</a>
       </li>
 
       <li>
@@ -351,11 +353,13 @@
       <li>
         B. Turcksin, M. Kronbichler, W. Bangerth
         <br>
-        <strong>WorkStream &mdash; a design pattern for multicore-enabled finite element computations
+        <strong><i>WorkStream</i> &mdash; a design pattern for multicore-enabled finite element computations
         </strong>
         <br>
         ACM Transactions on Mathematical Software, vol. 43,
         pp. 2/1-29, 2016.
+        <br>
+        DOI: <a href="https://doi.org/10.1145/2851488">10.1145/2851488</a>
       </li>
 
       <li>
@@ -366,7 +370,7 @@
         <br>
         Computers and Mathematics with Applications, vol. 72, issue 1, pp. 1-24, 2016.
         <br>
-        DOI: <a href="http://dx.doi.org/10.1016/j.camwa.2016.04.024">10.1016/j.camwa.2016.04.024</a>
+        DOI: <a href="https://doi.org/10.1016/j.camwa.2016.04.024">10.1016/j.camwa.2016.04.024</a>
         <!-- http://www.sciencedirect.com/science/article/pii/S089812211630205X -->
       </li>
 
@@ -376,6 +380,8 @@
         <strong>What makes computational open source software libraries successful?</strong>
         <br>
         Computational Science &amp; Discovery, vol. 6, article 015010, 2013.
+        <br>
+        DOI: <a href="https://doi.org/10.1088/1749-4699/6/1/015010">10.1088/1749-4699/6/1/015010</a>
       </li>
 
       <li>
@@ -389,7 +395,7 @@
         <br>
         ACM Transactions on Mathematical Software, vol. 38, No. 2, pp. 14/1-28, 2012.
         <br>
-        DOI: <a href="http://dx.doi.org/10.1145/2049673.2049678">10.1145/2049673.2049678</a>
+        DOI: <a href="https://doi.org/10.1145/2049673.2049678">10.1145/2049673.2049678</a>
       </li>
 
       <li>
@@ -401,7 +407,7 @@
         <br>
         Computers and Fluids, vol. 63, pp. 135-147, 2012.
         <br>
-        DOI: <a href="http://dx.doi.org/10.1016/j.compfluid.2012.04.012">10.1016/j.compfluid.2012.04.012</a>
+        DOI: <a href="https://doi.org/10.1016/j.compfluid.2012.04.012">10.1016/j.compfluid.2012.04.012</a>
       </li>
 
       <li>
@@ -412,25 +418,29 @@
         <br>
         SIAM J. Sci. Comput., vol. 33/4, pp. 2095-2114, 2011.
         <br>
-        DOI: <a href="http://dx.doi.org/10.1137/090778523">10.1137/090778523</a>
+        DOI: <a href="https://doi.org/10.1137/090778523">10.1137/090778523</a>
       </li>
 
       <li>
         W. Bangerth, O. Kayser-Herold
         <br>
-        <strong>Data Structures and Requirements for hp Finite Element
+        <strong>Data Structures and Requirements for <i>hp</i> Finite Element
           Software
         </strong>
         <br>
         ACM Transactions on Mathematical Software, vol. 36, pp. 4/1-31, 2009.
+        <br>
+        DOI: <a href="https://doi.org/10.1145/1486525.1486529">10.1145/1486525.1486529</a>
       </li>
 
       <li>
         G. Kanschat
         <br>
-        <strong>Multi-level methods for discontinuous Galerkin FEM on locally refined meshes</strong>
+        <strong>Multilevel methods for discontinuous Galerkin FEM on locally refined meshes</strong>
         <br>
         Comput. &amp; Struct., vol. 82, pp. 2437-2445, 2004.
+        <br>
+        DOI: <a href="https://doi.org/10.1016/j.compstruc.2004.04.015">10.1016/j.compstruc.2004.04.015</a>
       </li>
     </ol>
 
