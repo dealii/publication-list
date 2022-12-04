@@ -17,7 +17,7 @@
 
   <script type="text/javascript">
     var first_year = 1998;
-    var last_year  = 2022;
+    var last_year  = 2023;
 
     // set up the table's structure
     var table = [
@@ -46,7 +46,8 @@
     ['2019',  0, 'blue'],
     ['2020',  0, 'blue'],
     ['2021',  0, 'blue'],
-    ['2022',  0, 'silver']
+    ['2022',  0, 'silver'],
+    ['2023',  0, 'silver']
     ];
 
     // now get the number of publications per year from the
