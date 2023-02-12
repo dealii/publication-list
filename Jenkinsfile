@@ -67,10 +67,9 @@ pipeline
           {
             sh '''
                cd offline
-               pdflatex -interaction=nonstopmode publication_list.tex
-               biber publication_list
-               grep WARN publication_list.blg | grep Duplicate && exit 1
-               pdflatex -interaction=nonstopmode publication_list.tex
+               latexmk -pdf -f publication_list.tex || exit 1
+               grep WARN publication_list.blg && echo "Warnings found!" && exit 2
+               echo "ok"
                '''
             archiveArtifacts artifacts: 'offline/publication_list.pdf', fingerprint: true
             githubNotify context: 'latex', description: '',  status: 'SUCCESS'
