@@ -1,6 +1,6 @@
-[![Build Status](https://jenkins.tjhei.info/job/publication-list/job/master/badge/icon)](https://jenkins.tjhei.info/job/publication-list/job/master/)
-[![download pdf](https://img.shields.io/badge/get-PDF-blue.svg)](https://tjhei.info/jenkins/publications.pdf)
-[![view html](https://img.shields.io/badge/view-HTML-blue.svg)](https://tjhei.info/jenkins/output.html)
+[![Build Status](https://ci.tjhei.info/job/publication-list/job/master/badge/icon)](https://ci.tjhei.info/job/publication-list/job/master/)
+[![download pdf](https://img.shields.io/badge/get-PDF-blue.svg)](https://ci.tjhei.info/job/publication-list/job/master/lastSuccessfulBuild/artifact/offline/publication_list.pdf)
+[![view html](https://img.shields.io/badge/view-HTML-blue.svg)](https://ci.tjhei.info/job/publication-list/job/master/lastSuccessfulBuild/artifact/output.html)
 
 # deal.II publication list
 This repository contains a list of known publications that use or cite the [deal.II](https://www.dealii.org) finite element library. 
