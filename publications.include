@@ -57,56 +57,6 @@
       </li>
 
       <li>
-        Daniel Arndt,
-        Wolfgang Bangerth,
-        Bruno Blais,
-        Marc Fehling,
-        Rene Gassm&ouml;ller,
-        Timo Heister,
-        Luca Heltai,
-        Uwe K&ouml;cher,
-        Martin Kronbichler,
-        Matthias Maier,
-        Peter Munch,
-        Jean-Paul Pelteret,
-        Sebastian Proell,
-        Konrad Simon,
-        Bruno Turcksin,
-        David Wells,
-        Jiaqi Zhang
-        <br />
-        <strong>The <abbr>deal.II</abbr> Library, Version 9.3
-        </strong>
-        <br>
-        Journal of Numerical Mathematics, vol. 29, no. 3, pages 171-186, 2021.
-        <br>
-        <a href="https://doi.org/10.1515/jnma-2021-0081">DOI:
-          10.1515/jnma-2021-0081</a>
-        <br>
-        (<a href="https://dealii.org/deal93-preprint.pdf" target="_top">preprint</a>)
-        <br>
-        <pre>
-@article{dealII93,
-  title     = {The \texttt{deal.II} Library, Version 9.3},
-  author    = {Daniel Arndt and Wolfgang Bangerth and Bruno Blais and
-               Marc Fehling and Rene Gassm{\"o}ller and Timo Heister
-               and Luca Heltai and Uwe K{\"o}cher and Martin
-               Kronbichler and Matthias Maier and Peter Munch and
-               Jean-Paul Pelteret and Sebastian Proell and Konrad
-               Simon and Bruno Turcksin and David Wells and Jiaqi
-               Zhang},
-  journal   = {Journal of Numerical Mathematics},
-  year      = {2021},
-  url       = {https://dealii.org/deal93-preprint.pdf},
-  doi       = {10.1515/jnma-2021-0081},
-  volume    = {29},
-  number    = {3},
-  pages     = {171--186}
-}
-              </pre>
-      </li>
-
-      <li>
         D. Arndt, W. Bangerth, D. Davydov, T. Heister,
         L. Heltai, M. Kronbichler, M. Maier,
         J.-P. Pelteret, B. Turcksin, D. Wells
@@ -143,6 +93,24 @@
     <p>
       Older releases are announced in the following preprints:
     <ul>
+      <li>
+        D. Arndt, W. Bangerth, B. Blais, M. Fehling, R. Gassm&ouml;ller,
+        T. Heister, L. Heltai, U. K&ouml;cher, M. Kronbichler, M. Maier,
+        P. Munch, J.-P. Pelteret, S. Proell, K. Simon, B. Turcksin,
+        D. Wells, J. Zhang
+        <br />
+        <strong>The <abbr>deal.II</abbr> Library, Version 9.3
+        </strong>
+        <br>
+        Journal of Numerical Mathematics, Volume 29, No. 3, Pages 171-186, 2021.
+        <br>
+        <a href="https://doi.org/10.1515/jnma-2021-0081">DOI:
+          10.1515/jnma-2021-0081</a>
+        <a href="https://dealii.org/deal93-preprint.pdf" target="_top">preprint</a>;
+        <a
+          href="https://github.com/dealii/publication-list/blob/72c4a8aee1fb46a3fba8cba463d44b0c0bd139c0/publications-2021.bib#L105-L115">bibtex</a>
+      </li>
+
       <li>
         D. Arndt, W. Bangerth, B. Blais,
         T. C. Clevenger, M. Fehling, A. V. Grayver,
