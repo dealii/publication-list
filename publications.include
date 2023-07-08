@@ -12,45 +12,52 @@
 
     <ol>
       <li>
-       	      Daniel Arndt,
-              Wolfgang Bangerth,
-	      Marco Feder,
-              Marc Fehling,
-	      Rene Gassm&ouml;ller,
-              Timo Heister,
-              Luca Heltai,
-              Martin Kronbichler,
-              Matthias Maier,
-              Peter Munch,
-              Jean-Paul Pelteret,
-	      Simon Sticko,
-              Bruno Turcksin,
-              David Wells
+    Daniel Arndt,
+    Wolfgang Bangerth,
+    Maximilian Bergbauer,
+    Marco Feder,
+    Marc Fehling,
+    Johannes Heinz,
+    Timo Heister,
+    Luca Heltai,
+    Martin Kronbichler,
+    Matthias Maier,
+    Peter Munch,
+    Jean-Paul Pelteret,
+    Bruno Turcksin,
+    David Wells,
+    Stefano Zampini
         <br />
-        <strong>The <abbr>deal.II</abbr> Library, Version 9.4
+        <strong>The <abbr>deal.II</abbr> Library, Version 9.5
         </strong>
         <br>
-        Journal of Numerical Mathematics, vol. 30, no. 3, pages 231-246, 2022.
+        Journal of Numerical Mathematics, submitted, 2023.
         <br>
-        <a href="https://doi.org/10.1515/jnma-2022-0054">DOI:
-          10.1515/jnma-2022-0054</a>
-        <br>
-        (<a href="https://dealii.org/deal94-preprint.pdf" target="_top">preprint</a>)
+<!--        <a href="https://doi.org/10.1515/jnma-2022-0054">DOI:
+          10.1515/jnma-2022-0054</a>; -->
+        <a href="https://dealii.org/deal95-preprint.pdf" target="_top">preprint</a>.
         <br>
         <pre>
-@article{dealII94,
-  title     = {The \texttt{deal.II} Library, Version 9.4},
-  author    = {Daniel Arndt and Wolfgang Bangerth and Marco Feder and
-               Marc Fehling and Rene Gassm{\"o}ller and Timo Heister
-               and Luca Heltai and Martin Kronbichler and
-	       Matthias Maier and Peter Munch and Jean-Paul Pelteret
-	       and Simon Sticko and Bruno Turcksin and David Wells},
+@article{dealII95,
+  title     = {The \texttt{deal.II} Library, Version 9.5},
+  author    = {    Daniel Arndt and
+    Wolfgang Bangerth and
+    Maximilian Bergbauer and
+    Marco Feder and
+    Marc Fehling and
+    Johannes Heinz and
+    Timo Heister and
+    Luca Heltai and
+    Martin Kronbichler and
+    Matthias Maier and
+    Peter Munch and
+    Jean-Paul Pelteret and
+    Bruno Turcksin and
+    David Wells and
+    Stefano Zampini
+  },
   journal   = {Journal of Numerical Mathematics},
-  doi       = {10.1515/jnma-2022-0054},
-  year      = {2022},
-  volume    = {30},
-  number    = {3},
-  pages     = {231-246},
+  year      = {2023, submitted},
   url       = {https://dealii.org/deal94-preprint.pdf}
 }
               </pre>
@@ -91,8 +98,34 @@
 
 
     <p>
-      Older releases are announced in the following preprints:
+    Older releases are announced in the following preprints:
     <ul>
+      <li>
+              Daniel Arndt,
+              Wolfgang Bangerth,
+	      Marco Feder,
+              Marc Fehling,
+	      Rene Gassm&ouml;ller,
+              Timo Heister,
+              Luca Heltai,
+              Martin Kronbichler,
+              Matthias Maier,
+              Peter Munch,
+              Jean-Paul Pelteret,
+	      Simon Sticko,
+              Bruno Turcksin,
+              David Wells
+        <br />
+        <strong>The <abbr>deal.II</abbr> Library, Version 9.4
+        </strong>
+        <br>
+        Journal of Numerical Mathematics, vol. 30, no. 3, pages 231-246, 2022.
+        <br>
+        <a href="https://doi.org/10.1515/jnma-2022-0054">DOI:
+          10.1515/jnma-2022-0054</a>;
+        <a href="https://dealii.org/deal94-preprint.pdf" target="_top">preprint</a>.
+      </li>
+
       <li>
         D. Arndt, W. Bangerth, B. Blais, M. Fehling, R. Gassm&ouml;ller,
         T. Heister, L. Heltai, U. K&ouml;cher, M. Kronbichler, M. Maier,
@@ -105,7 +138,7 @@
         Journal of Numerical Mathematics, Volume 29, No. 3, Pages 171-186, 2021.
         <br>
         <a href="https://doi.org/10.1515/jnma-2021-0081">DOI:
-          10.1515/jnma-2021-0081</a>
+          10.1515/jnma-2021-0081</a>;
         <a href="https://dealii.org/deal93-preprint.pdf" target="_top">preprint</a>;
         <a
           href="https://github.com/dealii/publication-list/blob/72c4a8aee1fb46a3fba8cba463d44b0c0bd139c0/publications-2021.bib#L105-L115">bibtex</a>
