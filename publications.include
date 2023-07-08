@@ -12,21 +12,21 @@
 
     <ol>
       <li>
-    Daniel Arndt,
-    Wolfgang Bangerth,
-    Maximilian Bergbauer,
-    Marco Feder,
-    Marc Fehling,
-    Johannes Heinz,
-    Timo Heister,
-    Luca Heltai,
-    Martin Kronbichler,
-    Matthias Maier,
-    Peter Munch,
-    Jean-Paul Pelteret,
-    Bruno Turcksin,
-    David Wells,
-    Stefano Zampini
+        Daniel Arndt,
+        Wolfgang Bangerth,
+        Maximilian Bergbauer,
+        Marco Feder,
+        Marc Fehling,
+        Johannes Heinz,
+        Timo Heister,
+        Luca Heltai,
+        Martin Kronbichler,
+        Matthias Maier,
+        Peter Munch,
+        Jean-Paul Pelteret,
+        Bruno Turcksin,
+        David Wells,
+        Stefano Zampini
         <br />
         <strong>The <abbr>deal.II</abbr> Library, Version 9.5
         </strong>
@@ -37,30 +37,19 @@
           10.1515/jnma-2022-0054</a>; -->
         <a href="https://dealii.org/deal95-preprint.pdf" target="_top">preprint</a>.
         <br>
-        <pre>
-@article{dealII95,
+<pre>
+@Article{dealII95,
   title     = {The \texttt{deal.II} Library, Version 9.5},
-  author    = {    Daniel Arndt and
-    Wolfgang Bangerth and
-    Maximilian Bergbauer and
-    Marco Feder and
-    Marc Fehling and
-    Johannes Heinz and
-    Timo Heister and
-    Luca Heltai and
-    Martin Kronbichler and
-    Matthias Maier and
-    Peter Munch and
-    Jean-Paul Pelteret and
-    Bruno Turcksin and
-    David Wells and
-    Stefano Zampini
-  },
+  author    = {Daniel Arndt and Wolfgang Bangerth and Maximilian Bergbauer and
+               Marco Feder and Marc Fehling and Johannes Heinz and
+               Timo Heister and Luca Heltai and Martin Kronbichler and
+               Matthias Maier and Peter Munch and Jean-Paul Pelteret and
+               Bruno Turcksin and David Wells and Stefano Zampini},
   journal   = {Journal of Numerical Mathematics},
   year      = {2023, submitted},
   url       = {https://dealii.org/deal95-preprint.pdf}
 }
-              </pre>
+</pre>
       </li>
 
       <li>
@@ -77,21 +66,22 @@
         <br>
         (<a href="https://arxiv.org/abs/1910.13247" target="_top">preprint</a>)
         <br>
-        <pre>
-      @Article{dealii2019design,
-        title   = {The {deal.II} finite element library: Design, features, and insights},
-        author  = {Daniel Arndt and Wolfgang Bangerth and Denis Davydov and
-                   Timo Heister and Luca Heltai and Martin Kronbichler and
-                   Matthias Maier and Jean-Paul Pelteret and Bruno Turcksin and
-                   David Wells},
-        journal = {Computers \& Mathematics with Applications},
-        year    = {2021},
-        DOI     = {10.1016/j.camwa.2020.02.022},
-        pages   = {407-422},
-        volume  = {81},
-        issn    = {0898-1221},
-        url     = {https://arxiv.org/abs/1910.13247}
-      }</pre>
+<pre>
+@Article{dealii2019design,
+  title   = {The {deal.II} finite element library: Design, features, and insights},
+  author  = {Daniel Arndt and Wolfgang Bangerth and Denis Davydov and
+             Timo Heister and Luca Heltai and Martin Kronbichler and
+             Matthias Maier and Jean-Paul Pelteret and Bruno Turcksin and
+             David Wells},
+  journal = {Computers \& Mathematics with Applications},
+  year    = {2021},
+  DOI     = {10.1016/j.camwa.2020.02.022},
+  pages   = {407-422},
+  volume  = {81},
+  issn    = {0898-1221},
+  url     = {https://arxiv.org/abs/1910.13247}
+}
+</pre>
       </li>
 
     </ol>
@@ -101,20 +91,20 @@
     Older releases are announced in the following preprints:
     <ul>
       <li>
-              Daniel Arndt,
-              Wolfgang Bangerth,
-	      Marco Feder,
-              Marc Fehling,
-	      Rene Gassm&ouml;ller,
-              Timo Heister,
-              Luca Heltai,
-              Martin Kronbichler,
-              Matthias Maier,
-              Peter Munch,
-              Jean-Paul Pelteret,
-	      Simon Sticko,
-              Bruno Turcksin,
-              David Wells
+        Daniel Arndt,
+        Wolfgang Bangerth,
+        Marco Feder,
+        Marc Fehling,
+        Rene Gassm&ouml;ller,
+        Timo Heister,
+        Luca Heltai,
+        Martin Kronbichler,
+        Matthias Maier,
+        Peter Munch,
+        Jean-Paul Pelteret,
+        Simon Sticko,
+        Bruno Turcksin,
+        David Wells
         <br />
         <strong>The <abbr>deal.II</abbr> Library, Version 9.4
         </strong>
