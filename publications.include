@@ -31,7 +31,7 @@
         <strong>The <abbr>deal.II</abbr> Library, Version 9.5
         </strong>
         <br>
-        Journal of Numerical Mathematics, submitted, 2023.
+        Journal of Numerical Mathematics, accepted for publication, 2023.
         <br>
 <!--        <a href="https://doi.org/10.1515/jnma-2022-0054">DOI:
           10.1515/jnma-2022-0054</a>; -->
@@ -46,7 +46,7 @@
                Matthias Maier and Peter Munch and Jean-Paul Pelteret and
                Bruno Turcksin and David Wells and Stefano Zampini},
   journal   = {Journal of Numerical Mathematics},
-  year      = {2023, submitted},
+  year      = {2023, accepted for publication},
   url       = {https://dealii.org/deal95-preprint.pdf}
 }
 </pre>
