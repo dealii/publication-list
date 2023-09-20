@@ -285,9 +285,11 @@
       <li>
         M. Fehling, W. Bangerth
         <br>
-        <strong>Algorithms for Parallel Generic <i>hp</i>-adaptive Finite Element Software
-        </strong><br>
-        <a href="https://arxiv.org/abs/2206.06512">arXiv:2206.06512</a>, 2022.
+        <strong>Algorithms for Parallel Generic <i>hp</i>-adaptive Finite Element Software</strong>
+        <br>
+        ACM Transactions on Mathematical Software, vol. 49, issue 3, article 25, pp. 1-26, 2023.
+        <br>
+        DOI: <a href="https://doi.org/10.1145/3603372">10.1145/3603372</a>
       </li>
 
       <li>
