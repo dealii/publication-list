@@ -14,6 +14,8 @@
 \usepackage[T1]{fontenc}
 \usepackage[colorlinks,urlcolor=blue]{hyperref}
 
+\usepackage{pgffor} % provides: \foreach
+
 % add custom field for preprint urls to biblatex datamodel
 \begin{filecontents}{preprint-uri.dbx}
 \DeclareDatamodelFields[type=field, datatype=uri]{preprint}
@@ -67,31 +69,8 @@
 
 \maketitle
 
-\addnewbibyear{1998}
-\addnewbibyear{1999}
-\addnewbibyear{2000}
-\addnewbibyear{2001}
-\addnewbibyear{2002}
-\addnewbibyear{2003}
-\addnewbibyear{2004}
-\addnewbibyear{2005}
-\addnewbibyear{2006}
-\addnewbibyear{2007}
-\addnewbibyear{2008}
-\addnewbibyear{2009}
-\addnewbibyear{2010}
-\addnewbibyear{2011}
-\addnewbibyear{2012}
-\addnewbibyear{2013}
-\addnewbibyear{2014}
-\addnewbibyear{2015}
-\addnewbibyear{2016}
-\addnewbibyear{2017}
-\addnewbibyear{2018}
-\addnewbibyear{2019}
-\addnewbibyear{2020}
-\addnewbibyear{2021}
-\addnewbibyear{2022}
-\addnewbibyear{2023}
+\foreach \year in {1998,...,2023}{
+  \addnewbibyear{\year}
+}
 
 \end{document}
