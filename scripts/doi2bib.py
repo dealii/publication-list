@@ -10,7 +10,7 @@ def bibtex_from_dois(dois):
   Parameters
   ----------
   dois : container -> string
-    Collection of dois.
+    Collection of DOIs.
 
   Returns
   -------
