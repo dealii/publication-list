@@ -53,6 +53,16 @@ pipeline
                grep -n -P "[^\\x00-\\x7F]" publications*.bib || true
                ! { grep -q -P "[^\\x00-\\x7F]" publications*.bib && echo "ERROR: found non-ASCII characters!"; }
                '''
+            // check that doi numbers do not include the https://doi.org/ URL component
+            sh '''#!/bin/bash
+               egrep -n 'doi *=.*doi.org/' publications*bib || true
+               ! { egrep -q 'doi *=.*doi.org/' publications*bib && echo "ERROR: URL in a field that should only contain a DOI!"; }
+               '''
+            // check that months use abbreviations, rather than numbers
+            sh '''#!/bin/bash
+               egrep -n 'month *= *\\{?[0-9]+' publications*bib || true
+               ! { egrep -q 'month *= *\\{?[0-9]+' publications*bib && echo "ERROR: A month field contains digits. Always use three letter month macros!"; }
+               '''
           }
         }
 
