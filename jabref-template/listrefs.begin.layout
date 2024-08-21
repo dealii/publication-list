@@ -1,16 +1,3 @@
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <title>deal.II: Publications</title>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Type" content="text/html; charset=\encoding">
-    <link rel="icon" href="/favicon.ico"/>
-    <link rel="apple-touch-icon" href="/pictures/clover57.png"/>
-    <meta name="author" content="the deal.II authors"/>
-    <meta name="keywords" content="dealii, publications, finite elements, finite element method, fem, finite element software, open source, adaptive, finite element method, finite element modeling, finite element modelling, finite element methods, numerical analysis, numerical analysis software, computational fluid dynamics software"/>
-    <meta name="robots" content="index, follow">
-
 <script type="text/javascript">
 <!--
 // QuickSearch script for JabRef HTML export 
@@ -356,7 +343,6 @@ function toggleSettings(){
 -->
 </script>
 <style type="text/css">
-body { background-color: white; font-family: Arial, sans-serif; font-size: 13px; line-height: 1.2; padding: 1em; color: #2E2E2E; margin: auto auto; }
 
 form#quicksearch { width: auto; border-style: solid; border-color: gray; border-width: 1px 0px; padding: 0.7em 0.5em; display:none; position:relative; }
 span#searchstat {padding-left: 1em;}
@@ -394,72 +380,16 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	tr { page-break-inside: avoid; }
 }
 </style>
-    <!-- Include stylesheets -->
-    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
-    <link href="css/global.less" type="text/less" rel="stylesheet"/>
-    <link href="css/index.less" type="text/less" rel="stylesheet"/>
+<!-- Include stylesheets -->
+<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+<link href="css/global.less" type="text/less" rel="stylesheet"/>
+<link href="css/index.less" type="text/less" rel="stylesheet"/>
 
-    <!-- LESS needs to come after the stylesheets -->
-    <script src="js/less-1.4.1.min.js"></script>
+<!-- LESS needs to come after the stylesheets -->
+<script src="js/less-1.4.1.min.js"></script>
 
-</head>
-<body>
-  <!--#include file="header.include" -->
 
-  <div class="bs-header">
-    <div class="container">
-      <br />
-      <h2> Publications on and with <abbr>deal.II</abbr>
-      </h2>
-
-      <p>
-        This page is an attempt at keeping track of all publications
-        that use and describe deal.II. Keeping it up to date is good
-        for our users (who can see what others have already done),
-        but is also important for keeping our funding agencies
-        apprised how widely used deal.II actually is.
-      </p>
-
-      <p>
-        If you have published anything,
-        including Diploma, Masters or PhD theses, please
-        <a href="https://github.com/dealii/publication-list/blob/master/README.md">let
-          us know about it</a>!
-      </p>
-    </div>
-  </div>
-
-  <div id="content" class="container">
-    <div class="row">
-      <div class="col-xs-12 col-md-9">
-        <div class="well" align="center">
-	  <div id="plot" style="width:600px"></div>
-	  <div id="n_publications"></div>
-	</div>
-      </div>
-
-      <div class="hidden-xs col-sm-3">
-        <div class="well">
-          <h2>Contents</h2>
-
-          <p>
-            <a href="#referencing">Referencing <abbr>deal.II</abbr></a>
-            <br><br>
-            <a href="#details">Publications on details
-              of <abbr>deal.II</abbr></a>
-            <br><br>
-	    <a href="#list">Publications using deal.II</a><br>
-        </div>
-      </div>
-    </div>
-    
-    <!--#include file="publications.include" -->
-
-    <div class="row">
-      <div class="well" id="list">
-        <h2>Publications using deal.II</h2>
-
-        <form action="" id="quicksearch">
+<form action="" id="quicksearch">
           <input type="text" id="qs_field" autocomplete="off" placeholder="Type to search..." /> <input type="button" onclick="clearQS()" value="clear" />
           <span id="searchstat">Matching entries: <span id="stat">0</span></span>
           <div id="showsettings" onclick="toggleSettings()">settings...</div>
@@ -472,5 +402,5 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
             </ul>
           </div>
         </form>
-        <table id="qs_table" border="1">
+<table id="qs_table" border="1">
           <tbody>

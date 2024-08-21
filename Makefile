@@ -10,10 +10,7 @@ publications.html: Makefile
 	cat publications-????.bib >temp/aspect.bib
 	cp jabref-template/* temp/
 	docker run --rm -v "$(PWD)/temp:/home/bob/source" tjhei/dealii-java-jabref
-	sed '/publications.include/q' temp/output.html >publications.html
-	cat publications.include >>publications.html
-	sed -n '/publications.include/,$$p' temp/output.html >>publications.html
-	sed -i '/publications.include/d' publications.html
+	cp temp/output.html output.html
 	rm -rf temp/
 
 # remove jabref strings before calling bibtool to suppress warnings
