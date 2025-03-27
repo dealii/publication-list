@@ -50,7 +50,7 @@ pipeline
           {
             // check for non-ascii characters and fail if they are present:
             sh '''#!/bin/bash
-               grep -n -P "[^\\x00-\\x7F]" publications*.bib || true
+               grep -n -b -P "[^\\x00-\\x7F]" publications*.bib || true
                ! { grep -q -P "[^\\x00-\\x7F]" publications*.bib && echo "ERROR: found non-ASCII characters!"; }
                '''
             // check that doi numbers do not include the https://doi.org/ URL component
