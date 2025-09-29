@@ -1,8 +1,5 @@
 latex: Makefile
-	cd offline && pdflatex -interaction=nonstopmode publication_list.tex || true
-	cd offline && biber publication_list
-	cd offline && pdflatex -interaction=nonstopmode publication_list.tex || true
-	cd offline && pdflatex -interaction=nonstopmode publication_list.tex
+	cd offline && latexmk -pdflua -f publication_list.tex
 
 publications.html: Makefile
 	rm -rf temp/ publications.html

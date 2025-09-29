@@ -11,7 +11,14 @@
 
 \documentclass[]{article}
 \usepackage[utf8]{inputenc}
+
+% for pdflatex:
 \usepackage[T1]{fontenc}
+
+% for luatex:
+\usepackage{fontspec}
+\setmainfont{Latin Modern Roman}
+
 \usepackage[colorlinks,urlcolor=blue]{hyperref}
 
 \usepackage{pgffor} % provides: \foreach
