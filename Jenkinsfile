@@ -77,7 +77,7 @@ pipeline
           {
             sh '''
                cd offline
-               latexmk -pdf -f publication_list.tex || exit 1
+               latexmk -pdflua -f publication_list.tex || exit 1
                grep WARN publication_list.blg && echo "Warnings found!" && exit 2
                echo "ok"
                '''
