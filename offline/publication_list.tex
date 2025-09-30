@@ -10,14 +10,16 @@
 %
 
 \documentclass[]{article}
-\usepackage[utf8]{inputenc}
+\usepackage{iftex}
 
-% for pdflatex:
-\usepackage[T1]{fontenc}
-
-% for luatex:
+\iftutex
+% (Xe|Lua)LaTeX
 \usepackage{fontspec}
 \setmainfont{Latin Modern Roman}
+\else
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\fi
 
 \usepackage[colorlinks,urlcolor=blue]{hyperref}
 
