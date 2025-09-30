@@ -8,7 +8,7 @@ USER root
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC apt-get -yq install \
     graphviz python3 flex bison make git cmake g++ wget \
     texlive biber bibtool \
-    texlive-latex-extra texlive-fonts-recommended latexmk cm-super
+    texlive-latex-extra texlive-luatex texlive-fonts-recommended latexmk cm-super
 
 # fix weird biber warnings about uninitialized values:
 RUN sed -i '1s|.*|#!/usr/bin/perl|' /usr/bin/biber

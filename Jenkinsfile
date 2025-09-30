@@ -12,7 +12,7 @@ pipeline
       {
         docker
         {
-          image 'tjhei/dealii-doc-gen:v4'
+          image 'tjhei/dealii-doc-gen:v5'
         }
       }
 

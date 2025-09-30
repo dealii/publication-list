@@ -10,8 +10,17 @@
 %
 
 \documentclass[]{article}
+\usepackage{iftex}
+
+\iftutex
+% (Xe|Lua)LaTeX
+\usepackage{fontspec}
+\setmainfont{Latin Modern Roman}
+\else
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\fi
+
 \usepackage[colorlinks,urlcolor=blue]{hyperref}
 
 \usepackage{pgffor} % provides: \foreach

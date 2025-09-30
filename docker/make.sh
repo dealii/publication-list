@@ -1,1 +1,1 @@
-docker build -t tjhei/dealii-doc-gen:v4 .
+docker build -t tjhei/dealii-doc-gen:v5 .
