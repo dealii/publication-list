@@ -1,5 +1,6 @@
 delete.field = {keywords}
 delete.field = {abstract}
+delete.field = {publisher}
 
 % generate citekeys using year, author, and title field
 key.format = {%d(year):%-2n(author):%-W(title)}
