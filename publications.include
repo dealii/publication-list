@@ -312,10 +312,31 @@
     <p>
       The following publications explain in great detail the
       implementation of algorithms and data structures of various
-      components of <abbr>deal.II</abbr>:
+      components of <abbr>deal.II</abbr>, as well as other
+      parts of the project as a whole:
     </p>
 
     <ol>
+      <li>
+        Daniel Arndt,
+        Wolfgang Bangerth,
+        Bruno Blais,
+        Marc Fehling,
+        Rene Gassm&ouml;ller,
+        Timo Heister,
+        Luca Heltai,
+        Martin Kronbichler,
+        Matthias Maier,
+        Peter Munch,
+        Bruno Turcksin,
+        David Wells
+        <br>
+        <strong>
+        Supporting computational science and engineering: How widely-used software in industrial and applied mathematics is created.</strong>
+        <br>
+        <a href="https://www.siam.org/publications/siam-news/articles/supporting-computational-science-and-engineering-the-creation-of-widely-used-software-in-industrial-and-applied-mathematics/">SIAM News, October 14, 2025</a>.
+      </li>
+
       <li>
         M. Fehling, W. Bangerth
         <br>
