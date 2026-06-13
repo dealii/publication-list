@@ -66,6 +66,34 @@ pipeline
           }
         }
 
+        stage("sort")
+        {
+          post {
+            failure {
+              githubNotify context: 'CI', description: 'publications not sorted. call make sort.',  status: 'FAILURE'
+            }
+          }
+          steps
+          {
+            // ignore the first and last lines that only contain metainformation
+            sh '''#!/bin/bash
+              for f in publications-*.bib ; do
+                bibtool -q -r bibtool.rsc -i ./$f -o ./$f.result || exit 1 ; \
+                diff <(tail -n +2 ./$f | head -n -2) ./$f.result >> diff.result
+              done
+              if [ -s diff.result ] ; then
+                echo "ERROR. Publications are not sorted. Consult the README for instructions." >&2 ; \
+                echo "Reported issues:" >&2 ; \
+                cat diff.result >&2 ; \
+                rm *.result ; \
+                exit 1
+              else
+                rm *.result
+              fi
+            '''
+          }
+        }
+
         stage("latex")
         {
           post {
