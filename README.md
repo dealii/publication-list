@@ -246,6 +246,17 @@ Library path: .:/path/to/bibtool/lib/BibTool
 Special configuration options: none
 ```
 
+## Publication counts chart
+
+To create a bar chart showing the number of BibTeX entries in each
+`publications-YYYY.bib` file, run:
+```
+python3 publications_per_year.py
+```
+This opens the chart in a window. The script requires
+[matplotlib](https://matplotlib.org/) and accepts an `--input-directory`
+option to select the input location.
+
 ## A final word...
 
 Thank you very much for your contribution! We appreciate any entries to the list, as well as maintenance for the existing entries.
