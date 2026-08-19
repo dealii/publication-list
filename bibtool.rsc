@@ -1,5 +1,6 @@
-delete.field = {keywords}
 delete.field = {abstract}
+delete.field = {copyright}
+delete.field = {keywords}
 delete.field = {publisher}
 
 % generate citekeys using year, author, and title field
