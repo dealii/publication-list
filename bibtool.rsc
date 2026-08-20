@@ -3,6 +3,8 @@ delete.field = {copyright}
 delete.field = {keywords}
 delete.field = {publisher}
 
+rename.field{issue=number}
+
 % generate citekeys using year, author, and title field
 key.format = {%d(year):%-2n(author):%-W(title)}
 key.generation = on
