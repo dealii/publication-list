@@ -40,15 +40,21 @@ $ git checkout -b my_awesome_new_publication
 Please try to select the correct entry type and to fill in as much of the mandatory fields for that selection.
 You can see find more information about this point in this [Wikipedia entry](https://en.wikipedia.org/wiki/BibTeX#Entry_types).
 If your publication has a URL or DOI number assigned to it, then it would be nice to enter that information as we will then generate a link straight to your publication.
-5. Commit your changes to your local copy of the git repository.
+5. Make sure that your entry is in the correct order and your citation key conforms to our style.
+This step helps us to maintain the publication list and is completely automized.
+You will need [bibtool](#installing-bibtool) and only have to call
+```
+$ make sort
+```
+6. Commit your changes to your local copy of the git repository.
 ```
 $ git commit -m "Added entry <bibtex key>"
 ```
-6. Push the changes to your fork of this repository
+7. Push the changes to your fork of this repository
 ```
 $ git push origin my_awesome_new_publication
 ```
-7. Setup a pull request for your addition(s) within GitHub.
+8. Setup a pull request for your addition(s) within GitHub.
 
 ## Commonly used entry templates
 
